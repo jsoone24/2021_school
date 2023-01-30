@@ -1,0 +1,14 @@
+UPDATE account 
+SET 
+    balance = balance * 1.05
+WHERE
+    balance * 1.05 < 150000
+        AND balance >= 1000;
+
+UPDATE account 
+SET 
+    balance = balance * 1.03
+WHERE
+    balance < 1000;
+    
+select * from account;

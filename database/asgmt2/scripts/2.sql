@@ -1,0 +1,12 @@
+SELECT distinct
+    c.customer_name AS 'customer_name'
+FROM
+    customer c
+        INNER JOIN
+    borrower br ON (c.customer_id = br.customer_id)
+        INNER JOIN
+    loan_branch lb ON (br.loan_number = lb.loan_number)
+        INNER JOIN
+    branch b ON (lb.branch_name = b.branch_name)
+WHERE
+    c.customer_city = b.branch_city;
