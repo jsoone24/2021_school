@@ -1,0 +1,138 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BACK	sh.c	12;"	d	file:
+BIG	usertests.c	1452;"	d	file:
+EXEC	sh.c	8;"	d	file:
+LIST	sh.c	11;"	d	file:
+MAXARGS	sh.c	14;"	d	file:
+N	forktest.c	8;"	d	file:
+PIPE	sh.c	10;"	d	file:
+REDIR	sh.c	9;"	d	file:
+RTC_ADDR	usertests.c	1701;"	d	file:
+RTC_DATA	usertests.c	1702;"	d	file:
+argptest	usertests.c	/^void argptest()$/;"	f
+argv	init.c	/^char *argv[] = { "sh", 0 };$/;"	v
+argv	sh.c	/^  char *argv[MAXARGS];$/;"	m	struct:execcmd	file:
+backcmd	sh.c	/^backcmd(struct cmd *subcmd)$/;"	f
+backcmd	sh.c	/^struct backcmd {$/;"	s	file:
+bigargtest	usertests.c	/^bigargtest(void)$/;"	f
+bigdir	usertests.c	/^bigdir(void)$/;"	f
+bigfile	usertests.c	/^bigfile(void)$/;"	f
+bigwrite	usertests.c	/^bigwrite(void)$/;"	f
+bsstest	usertests.c	/^bsstest(void)$/;"	f
+buf	cat.c	/^char buf[512];$/;"	v
+buf	grep.c	/^char buf[1024];$/;"	v
+buf	usertests.c	/^char buf[8192];$/;"	v
+buf	wc.c	/^char buf[512];$/;"	v
+cat	cat.c	/^cat(int fd)$/;"	f
+cmd	sh.c	/^  struct cmd *cmd;$/;"	m	struct:backcmd	typeref:struct:backcmd::cmd	file:
+cmd	sh.c	/^  struct cmd *cmd;$/;"	m	struct:redircmd	typeref:struct:redircmd::cmd	file:
+cmd	sh.c	/^struct cmd {$/;"	s	file:
+concreate	usertests.c	/^concreate(void)$/;"	f
+createdelete	usertests.c	/^createdelete(void)$/;"	f
+createtest	usertests.c	/^createtest(void)$/;"	f
+dirfile	usertests.c	/^dirfile(void)$/;"	f
+dirtest	usertests.c	/^void dirtest(void)$/;"	f
+eargv	sh.c	/^  char *eargv[MAXARGS];$/;"	m	struct:execcmd	file:
+echoargv	usertests.c	/^char *echoargv[] = { "echo", "ALL", "TESTS", "PASSED", 0 };$/;"	v
+efile	sh.c	/^  char *efile;$/;"	m	struct:redircmd	file:
+execcmd	sh.c	/^execcmd(void)$/;"	f
+execcmd	sh.c	/^struct execcmd {$/;"	s	file:
+exectest	usertests.c	/^exectest(void)$/;"	f
+exitiputtest	usertests.c	/^exitiputtest(void)$/;"	f
+exitwait	usertests.c	/^exitwait(void)$/;"	f
+fd	sh.c	/^  int fd;$/;"	m	struct:redircmd	file:
+file	sh.c	/^  char *file;$/;"	m	struct:redircmd	file:
+fmtname	ls.c	/^fmtname(char *path)$/;"	f
+fork1	sh.c	/^fork1(void)$/;"	f
+forktest	forktest.c	/^forktest(void)$/;"	f
+forktest	usertests.c	/^forktest(void)$/;"	f
+fourfiles	usertests.c	/^fourfiles(void)$/;"	f
+fourteen	usertests.c	/^fourteen(void)$/;"	f
+fsfull	usertests.c	/^fsfull()$/;"	f
+getcmd	sh.c	/^getcmd(char *buf, int nbuf)$/;"	f
+gettoken	sh.c	/^gettoken(char **ps, char *es, char **q, char **eq)$/;"	f
+grep	grep.c	/^grep(char *pattern, int fd)$/;"	f
+iputtest	usertests.c	/^iputtest(void)$/;"	f
+iref	usertests.c	/^iref(void)$/;"	f
+left	sh.c	/^  struct cmd *left;$/;"	m	struct:listcmd	typeref:struct:listcmd::cmd	file:
+left	sh.c	/^  struct cmd *left;$/;"	m	struct:pipecmd	typeref:struct:pipecmd::cmd	file:
+linktest	usertests.c	/^linktest(void)$/;"	f
+linkunlink	usertests.c	/^linkunlink()$/;"	f
+listcmd	sh.c	/^listcmd(struct cmd *left, struct cmd *right)$/;"	f
+listcmd	sh.c	/^struct listcmd {$/;"	s	file:
+ls	ls.c	/^ls(char *path)$/;"	f
+main	cat.c	/^main(int argc, char *argv[])$/;"	f
+main	echo.c	/^main(int argc, char *argv[])$/;"	f
+main	forktest.c	/^main(void)$/;"	f
+main	grep.c	/^main(int argc, char *argv[])$/;"	f
+main	init.c	/^main(void)$/;"	f
+main	kill.c	/^main(int argc, char **argv)$/;"	f
+main	ln.c	/^main(int argc, char *argv[])$/;"	f
+main	ls.c	/^main(int argc, char *argv[])$/;"	f
+main	mkdir.c	/^main(int argc, char *argv[])$/;"	f
+main	ps.c	/^int main(int argc, char **argv)$/;"	f
+main	rm.c	/^main(int argc, char *argv[])$/;"	f
+main	sh.c	/^main(void)$/;"	f
+main	stressfs.c	/^main(int argc, char *argv[])$/;"	f
+main	test_nice.c	/^int main(int argc, char **argv)$/;"	f
+main	test_sys_ps.c	/^int main(int argc, char **argv)$/;"	f
+main	usertests.c	/^main(int argc, char *argv[])$/;"	f
+main	wc.c	/^main(int argc, char *argv[])$/;"	f
+main	zombie.c	/^main(void)$/;"	f
+match	grep.c	/^match(char *re, char *text)$/;"	f
+matchhere	grep.c	/^int matchhere(char *re, char *text)$/;"	f
+matchstar	grep.c	/^int matchstar(int c, char *re, char *text)$/;"	f
+mem	usertests.c	/^mem(void)$/;"	f
+mode	sh.c	/^  int mode;$/;"	m	struct:redircmd	file:
+name	usertests.c	/^char name[3];$/;"	v
+nulterminate	sh.c	/^nulterminate(struct cmd *cmd)$/;"	f
+openiputtest	usertests.c	/^openiputtest(void)$/;"	f
+opentest	usertests.c	/^opentest(void)$/;"	f
+panic	sh.c	/^panic(char *s)$/;"	f
+parseblock	sh.c	/^parseblock(char **ps, char *es)$/;"	f
+parsecmd	sh.c	/^parsecmd(char *s)$/;"	f
+parseexec	sh.c	/^parseexec(char **ps, char *es)$/;"	f
+parseline	sh.c	/^parseline(char **ps, char *es)$/;"	f
+parsepipe	sh.c	/^parsepipe(char **ps, char *es)$/;"	f
+parseredirs	sh.c	/^parseredirs(struct cmd *cmd, char **ps, char *es)$/;"	f
+peek	sh.c	/^peek(char **ps, char *es, char *toks)$/;"	f
+pipe1	usertests.c	/^pipe1(void)$/;"	f
+pipecmd	sh.c	/^pipecmd(struct cmd *left, struct cmd *right)$/;"	f
+pipecmd	sh.c	/^struct pipecmd {$/;"	s	file:
+preempt	usertests.c	/^preempt(void)$/;"	f
+print	forktest.c	/^print(int fd, const char *s, ...)$/;"	f
+rand	usertests.c	/^rand()$/;"	f
+randstate	usertests.c	/^unsigned long randstate = 1;$/;"	v
+redircmd	sh.c	/^redircmd(struct cmd *subcmd, char *file, char *efile, int mode, int fd)$/;"	f
+redircmd	sh.c	/^struct redircmd {$/;"	s	file:
+right	sh.c	/^  struct cmd *right;$/;"	m	struct:listcmd	typeref:struct:listcmd::cmd	file:
+right	sh.c	/^  struct cmd *right;$/;"	m	struct:pipecmd	typeref:struct:pipecmd::cmd	file:
+rmdot	usertests.c	/^rmdot(void)$/;"	f
+runcmd	sh.c	/^runcmd(struct cmd *cmd)$/;"	f
+sbrktest	usertests.c	/^sbrktest(void)$/;"	f
+sharedfd	usertests.c	/^sharedfd(void)$/;"	f
+stdout	usertests.c	/^int stdout = 1;$/;"	v
+subdir	usertests.c	/^subdir(void)$/;"	f
+symbols	sh.c	/^char symbols[] = "<|>&;()";$/;"	v
+test_nice	test_nice.c	/^void test_nice()$/;"	f
+test_ps	test_sys_ps.c	/^void test_ps()$/;"	f
+type	sh.c	/^  int type;$/;"	m	struct:backcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:cmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:execcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:listcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:pipecmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:redircmd	file:
+uio	usertests.c	/^uio()$/;"	f
+uninit	usertests.c	/^char uninit[10000];$/;"	v
+unlinkread	usertests.c	/^unlinkread(void)$/;"	f
+validateint	usertests.c	/^validateint(int *p)$/;"	f
+validatetest	usertests.c	/^validatetest(void)$/;"	f
+wc	wc.c	/^wc(int fd, char *name)$/;"	f
+whitespace	sh.c	/^char whitespace[] = " \\t\\r\\n\\v";$/;"	v
+writetest	usertests.c	/^writetest(void)$/;"	f
+writetest1	usertests.c	/^writetest1(void)$/;"	f
