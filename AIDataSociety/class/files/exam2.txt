@@ -1,0 +1,6 @@
+name	score	absent
+kim	95	3
+choi	100	0
+lee	90	2
+park	85	1
+cho	77	5
