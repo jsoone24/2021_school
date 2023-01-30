@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster"
+          args="0 0 1 1.0472 0 1.5708 parent_link child_link 100"/>
+</launch>

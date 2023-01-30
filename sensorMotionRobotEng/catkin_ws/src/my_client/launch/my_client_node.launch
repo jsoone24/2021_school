@@ -1,0 +1,4 @@
+<launch>
+    <arg name="my_args" default=""/>
+    <node pkg="my_client" type="my_client_node" name="my_client_node" args="$(arg my_args)" output="screen"></node>
+</launch>

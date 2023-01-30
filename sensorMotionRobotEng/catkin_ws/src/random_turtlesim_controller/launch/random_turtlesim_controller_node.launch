@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="random_turtlesim_controller" type="random_turtlesim_controller_node" output="screen" name="random_turtlesim_controller_node"></node>
+</launch>

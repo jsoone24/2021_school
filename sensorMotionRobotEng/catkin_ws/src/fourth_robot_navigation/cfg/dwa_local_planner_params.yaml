@@ -1,0 +1,170 @@
+DWAPlannerROS:
+
+  #속도 빠르게 하려면 max_vel_trans 바꾸고, min_vel_tans 는 0.1로 유지
+
+# Robot Configuration Parameters
+  max_vel_x: 20 # 로봇의 최대 x 속도
+  min_vel_x: -20 # 로봇의 최소 x 속도
+
+  max_vel_y: 0.0 # 로봇의 최대 y 속도
+  min_vel_y: 0.0 # 로봇의 최소 y 속도
+
+  # The velocity when robot is moving in a straight line
+  max_vel_trans:  20 # 로봇의 최대 변환 속도
+  min_vel_trans:  0.1 # 로봇의 최소 변환 속도
+
+  max_vel_theta: 5.0 # 로봇의 최대 회전 속도
+  min_vel_theta: -5.0 # 로봇의 최소 회전 속도
+
+  acc_lim_x: 10 # 로봇의 최대 x 가속도
+  acc_lim_y: 0.0 # 로봇의 최대 y 가속도
+  acc_lim_theta: 5 # 로봇의 최대 회전 가속도
+
+# Goal Tolerance Parametes
+  xy_goal_tolerance: 0.05 # goal 위치에서 x 와 y 거리의 허용 오차
+  yaw_goal_tolerance: 0.1 # goal 위치에서 yaw(방향)의 허용 오차
+  latch_xy_goal_tolerance: true # goal 위치에서 허용 오차를 벗어나더라도 로봇이 제자리에서 회전이 가능하도록 한다.
+
+# Forward Simulation Parameters
+  sim_time: 1.5 # 궤적을 전진 시뮬레이션 하는데 소요되는 시간
+  vx_samples: 20 # x 속도 탐색시 사용할 샘플 수
+  vy_samples: 0 # y 속도 탐색시 사용할 샘플 수
+  vth_samples: 40 # 회전 속도 탐색시 사용할 샘플 수
+  controller_frequency: 10.0
+
+# Trajectory Scoring Parameters
+  path_distance_bias: 32.0 # 컨트롤러가 주어진 경로에 얼마나 가까이 있어야 하는지에 대한 가중치
+  goal_distance_bias: 20.0 # 컨트롤러가 local goal 달성을 위해 
+  occdist_scale: 0.02 # 컨트롤러가 장애물을 피하려고 시도하는 양
+  forward_point_distance: 0.325 # 로봇의 중심부터 추가된 local goal pose까지의 거리
+  stop_time_buffer: 0.2 # 궤적이 유효한 것으로 간주되기 위해 로봇이 충돌전에 정지해야되는 시간
+  scaling_speed: 0.25 # 로봇의 footprint확장을 시작하는 속도
+  max_scaling_factor: 0.2 # 로봇의 설치 공간을 확장하는 최대 요인
+
+# Oscillation Prevention Parameters
+  oscillation_reset_dist: 0.05
+
+# Debugging
+  publish_traj_pc : true
+  publish_cost_grid_pc: true
+
+
+### Robot Configuration Parameters ###
+# 
+# ~<name>/acc_lim_x (double, default: 2.5)
+# The x acceleration limit of the robot in meters/sec^2
+# 
+# ~<name>/acc_lim_y (double, default: 2.5)
+# The y acceleration limit of the robot in meters/sec^2
+# 
+# ~<name>/acc_lim_th (double, default: 3.2)
+# The rotational acceleration limit of the robot in radians/sec^2
+# 
+# ~<name>/max_vel_trans (double, default: 0.55)
+# The absolute value of the maximum translational velocity for the robot in m/s
+# 
+# ~<name>/min_vel_trans (double, default: 0.1)
+# The absolute value of the minimum translational velocity for the robot in m/s
+#
+#~<name>/max_vel_theta (double, default: 1.0)
+#The maximum rotational velocity allowed for the base in radians/sec
+#
+#~<name>/min_vel_theta (double, default: -1.0)
+#The minimum rotational velocity allowed for the base in radians/sec
+# 
+# ~<name>/max_vel_x (double, default: 0.55)
+# The maximum x velocity for the robot in m/s.
+# 
+# ~<name>/min_vel_x (double, default: 0.0)
+# The minimum x velocity for the robot in m/s, negative for backwards motion.
+# 
+# ~<name>/max_vel_y (double, default: 0.1)
+# The maximum y velocity for the robot in m/s
+# 
+# ~<name>/min_vel_y (double, default: -0.1)
+# The minimum y velocity for the robot in m/s
+# 
+# ~<name>/max_rot_vel (double, default: 1.0)
+# The absolute value of the maximum rotational velocity for the robot in rad/s
+# 
+# ~<name>/min_rot_vel (double, default: 0.4)
+# The absolute value of the minimum rotational velocity for the robot in rad/s
+#
+#
+### Goal Tolerance Parameters ###
+# 
+# ~<name>/yaw_goal_tolerance (double, default: 0.05)
+# The tolerance in radians for the controller in yaw/rotation when achieving its goal
+# 
+# ~<name>/xy_goal_tolerance (double, default: 0.10)
+# The tolerance in meters for the controller in the x & y distance when achieving a goal
+# 
+# ~<name>/latch_xy_goal_tolerance (bool, default: false)
+# If goal tolerance is latched, if the robot ever reaches the goal xy location it will simply rotate in place, even if it ends up outside the goal tolerance while it is doing so.
+# 
+# 
+### Forward Simulation Parameters ###
+# 
+# ~<name>/sim_time (double, default: 1.7)
+# The amount of time to forward-simulate trajectories in seconds
+# 
+# ~<name>/sim_granularity (double, default: 0.025)
+# The step size, in meters, to take between points on a given trajectory
+# 
+# ~<name>/vx_samples (integer, default: 3)
+# The number of samples to use when exploring the x velocity space
+# 
+# ~<name>/vy_samples (integer, default: 10)
+# The number of samples to use when exploring the y velocity space
+# 
+# ~<name>/vth_samples (integer, default: 20)
+# The number of samples to use when exploring the theta velocity space
+# 
+# ~<name>/controller_frequency (double, default: 20.0)
+# The frequency at which this controller will be called in Hz. Uses searchParam to read the parameter from parent namespaces if not set in the namespace of the controller. For use with move_base, this means that you only need to set its "controller_frequency" parameter and can safely leave this one unset.
+# 
+# 
+### Trajectory Scoring Parameters ###
+# The cost function used to score each trajectory is in the following form:
+# 
+# cost =
+#   path_distance_bias * (distance to path from the endpoint of the trajectory in meters)
+#   + goal_distance_bias * (distance to local goal from the endpoint of the trajectory in meters)
+#   + occdist_scale * (maximum obstacle cost along the trajectory in obstacle cost (0-254))
+# 
+# ~<name>/path_distance_bias (double, default: 32.0)
+# The weighting for how much the controller should stay close to the path it was given
+# 
+# ~<name>/goal_distance_bias (double, default: 24.0)
+# The weighting for how much the controller should attempt to reach its local goal, also controls speed
+# 
+# ~<name>/occdist_scale (double, default: 0.01)
+# The weighting for how much the controller should attempt to avoid obstacles
+# 
+# ~<name>/forward_point_distance (double, default: 0.325)
+# The distance from the center point of the robot to place an additional scoring point, in meters
+# 
+# ~<name>/stop_time_buffer (double, default: 0.2)
+# The amount of time that the robot must stop before a collision in order for a trajectory to be considered valid in seconds
+# 
+# ~<name>/scaling_speed (double, default: 0.25)
+# The absolute value of the velocity at which to start scaling the robot's footprint, in m/s
+# 
+# ~<name>/max_scaling_factor (double, default: 0.2)
+# The maximum factor to scale the robot's footprint by
+# 
+# ~<name>/publish_cost_grid (bool, default: false)
+# Whether or not to publish the cost grid that the planner will use when planning. When true, a sensor_msgs/PointCloud2 will be available on the 
+# ~<name>/cost_cloud topic. Each point cloud represents the cost grid and has a field for each individual scoring function component as well as the overall cost for each cell, taking the scoring parameters into account.
+# 
+# 
+### Oscillation Prevention Parameters ###
+# 
+# ~<name>/oscillation_reset_dist (double, default: 0.05)
+# How far the robot must travel in meters before oscillation flags are reset
+# 
+# 
+### Global Plan Parameters ###
+# 
+# ~<name>/prune_plan (bool, default: true)
+# Defines whether or not to eat up the plan as the robot moves along the path. If set to true, points will fall off the end of the plan once the robot moves 1 meter past them.

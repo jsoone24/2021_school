@@ -1,0 +1,60 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_footprint
+
+  update_frequency: 10.0
+  publish_frequency: 10.0
+  transform_tolerance: 0.5
+
+  static_map: true
+ 
+### Plugins ###
+# ~<name>/plugins (sequence, default: pre-Hydro behavior)
+# Sequence of plugin specifications, one per layer. Each specification is a dictionary with name and type fields. The name is used to define the parameter namespace for the plugin. See the tutorials for examples.
+# 
+# 
+### Coordinate frame and tf parameters ###
+# 
+# ~<name>/global_frame (string, default: "/map")
+# The global frame for the costmap to operate in.
+# 
+# ~<name>/robot_base_frame (string, default: "base_link")
+# The name of the frame for the base link of the robot.
+# 
+# ~<name>/transform_tolerance (double, default: 0.2)
+# Specifies the delay in transform (tf) data that is tolerable in seconds. This parameter serves as a safeguard to losing a link in the tf tree while still allowing an amount of latency the user is comfortable with to exist in the system. For example, a transform being 0.2 seconds out-of-date may be tolerable, but a transform being 8 seconds out of date is not. If the tf transform between the coordinate frames specified by the global_frame and robot_base_frame parameters is transform_tolerance seconds older than ros::Time::now(), then the navigation stack will stop the robot.
+# 
+# 
+### Rate parameters ###
+# 
+# ~<name>/update_frequency (double, default: 5.0)
+# The frequency in Hz for the map to be updated.
+# 
+# ~<name>/publish_frequency (double, default: 0.0)
+# The frequency in Hz for the map to be publish display information.
+# 
+# 
+### Map management parameters ###
+# 
+# ~<name>/rolling_window (bool, default: false)
+# Whether or not to use a rolling window version of the costmap. If the static_map parameter is set to true, this parameter must be set to false.
+# 
+# ~<name>/always_send_full_costmap (bool, default: false)
+# If true the full costmap is published to "~<name>/costmap" every update. If false only the part of the costmap that has changed is published on the "~<name>/costmap_updates" topic.
+# 
+# The following parameters can be overwritten by some layers, namely the static map layer.
+# 
+# ~<name>/width (int, default: 10)
+# The width of the map in meters.
+# 
+# ~<name>/height (int, default: 10)
+# The height of the map in meters.
+# 
+# ~<name>/resolution (double, default: 0.05)
+# The resolution of the map in meters/cell.
+# 
+# ~<name>/origin_x (double, default: 0.0)
+# The x origin of the map in the global frame in meters.
+# 
+# ~<name>/origin_y (double, default: 0.0)
+# The y origin of the map in the global frame in meters.

@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="multiple_topic_subscribe" name="multiple_topic_subscribe_node" type="multiple_topic_subscribe_node" output="screen"></node>
+</launch>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>fourth_robot_2dnav_gazebo</name>
+  <version>0.0.0</version>
+  <description>The fourth_robot_2dnav_gazebo package</description>
+  
+  <maintainer email="k104073r@mail.kyutech.jp">RyodoTanaka</maintainer>
+  <author email="k104073r@mail.kyutech.jp">RyodoTanaka</author>
+
+  <license>MIT</license>
+  
+  <url type="repository">https://github.com/CIR-KIT/fourth_robot_pkg.git</url>
+<url type="bugtracker">https://github.com/CIR-KIT/fourth_robot_pkgs/issues</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>amcl</run_depend>
+  <run_depend>map_server</run_depend>
+  <run_depend>move_base</run_depend>
+  <run_depend>topic_tools</run_depend>
+  
+</package>
