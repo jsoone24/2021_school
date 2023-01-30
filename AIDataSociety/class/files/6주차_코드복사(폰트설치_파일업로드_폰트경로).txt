@@ -1,0 +1,37 @@
+﻿# colab에서 한글 폰트 설치 코드 
+# -------------------------------
+!sudo apt-get install -y fonts-nanum
+!sudo fc-cache -fv
+!rm ~/.cache/matplotlib –rf
+
+# 파일 업로드 
+# -------------------------
+from google.colab import files
+files.upload()
+
+# 파일 읽어 텍스트 내용 가져오기 
+# --------------------  
+f = open( '위키_인공지능.txt', 'r', encoding='UTF8')
+text = f.read()
+print(text)
+
+# 폰트파일 경로 
+# --------------------------
+폰트파일경로 =  '/usr/share/fonts/truetype/nanum/NanumGothic.ttf'
+
+
+# 이미지 파일 처리 
+# ------------------------------
+from PIL import Image
+import numpy as np
+maskHeart = np.array( Image.open('heart_mask.jpg') )
+
+
+
+
+
+
+
+ 
+
+
