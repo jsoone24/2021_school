@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <p>If you click on the "Hide" button, I will disappear.</p>
+
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+
+    <script>
+      // 문제 3. 위 id가 "hide"인 button을 click하면, <p>를 hide하고
+      //        id가 "show"인 button을 click하면, <p>를 show하게 만들어라
+      $(document).ready(function () {
+        // coding here
+        $("#hide").click(() => {
+          $("p").hide();
+        });
+
+        $("#show").click(() => {
+          $("p").show();
+        });
+      });
+    </script>
+  </body>
+</html>

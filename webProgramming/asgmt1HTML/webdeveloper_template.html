@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Web Developer</title>
+	<!-- link rel="stylesheet" type="text/css" href="css/style.css" -->
+</head>
+
+<body>
+	<div class="container">
+		<div class="logo">
+			<img src="webDeveloper.png">
+		</div>
+		<h1>About</h1>
+		<p class="intro">It can be intimidating for women to learn and ask questions when they are in an<b> extreme
+				minority.</b> While open and welcoming, today's budding developer community is up to <b> 91% male. </b>
+			If we can empower more females with the confidence in their technological capabilities <i>we can begin to change the landscape.</i></p>
+		<br>
+		<br>
+		<br>
+		<h2>Our Locations</h2>
+		<ul>
+			<li><strong>USA</strong>
+				<ul>
+					<li><a href="#">New York</a></li>
+					<li><a href="#">Columbus</a></li>
+					<li><a href="#">Austin</a></li>
+					<li><a href="#">Philly</a></li>
+				</ul>
+			</li>
+			<li><strong>World</strong>
+				<ul>
+					<li><a href="#">Ottawa</a></li>
+					<li><a href="#">Sydney</a></li>
+				</ul>
+			</li>
+		</ul>
+		<br>
+		<br>
+		<br>
+		<h2>Upcoming Classes</h2>
+		<table border="1" align="center">
+			<tr>
+				<!-- tr : table row-->
+				<!-- th : table header -->
+				<th>Location</th>
+				<th>Topic</th>
+			</tr>
+			<tr>
+				<!-- td : table data-->
+				<td>New York</td>
+				<td>Javascript & JQuery</td>
+			</tr>
+			<tr>
+				<!-- td : table data-->
+				<td>San Francisco</td>
+				<td>HTML & CSS</td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<br>
+		<h2>Sign Up!</h2>
+		<form action="http://example.org" method="POST" name="my-form">
+			<label for="Name">Name:</label>
+			<input type="text" name="username" id="Name"><br>
+
+			<label for="Email">Email:</label>
+			<input type="text" name="useremail" id="Email"><br>
+
+			<label for="Location">Location:</label>
+			<select name="location" id="Location">
+				<option value="1" selected>San Francisco</option>
+				<option value="2">New York</option>
+			</select><br>
+
+			<fieldset>
+				<legend><label for="Gender">Gender:</label></legend>
+				<input type="radio" name="gender" id="Gender" value="Male"> Male
+				<input type="radio" name="gender" id="Gender" value="Female"> Female <br>
+			</fieldset>
+
+			<label for="Experience">Experience:</label><br>
+			<textarea name="experience" id="Experience" cols="30" rows="3"></textarea><br>
+			
+			<input type="submit" id="sign up" value="Sign up">
+		</form>
+	</div>
+
+</body>
+
+</html>

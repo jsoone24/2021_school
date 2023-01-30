@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <p id="test1">1st paragraph.</p>
+    <p id="test2">2nd paragraph.</p>
+
+    <p>Input field: <input type="text" id="test3" value="Mickey Mouse" /></p>
+
+    <button id="btn1">Set Text</button>
+    <button id="btn2">Set HTML</button>
+    <button id="btn3">Set Value</button>
+
+    <script>
+      // 문제 4.
+      //   4-1) 위 id가 "btn1"인 button을 click하면, id가 "test1"인 <p>의 text를
+      //        "Changed 1st Paragraph"로 변경하라.
+      //   4-2) 위 id가 "btn2"인 button을 click하면, id가 "test2"인 <p>의 text를
+      //        "<b>Bolded 2nd Paragraph</b>"로 변경하여 text를 bold로 만들어라.
+      //   4-3) 위 id가 "btn3"인 button을 click하면, id가 "test3"인 <input>의 value값을
+      //        "Mickey Mouse"에서 "Dolly Duck"으로 변경하라.
+      $(document).ready(function () {
+        // coding here
+        $("#btn1").click(() => {
+          $("#test1").text("Changed 1st Paragraph");
+        });
+
+        $("#btn2").click(() => {
+          $("#test2").html("<b>Bolded 2nd Paragraph</b>");
+        });
+
+        $("#btn3").click(() => {
+          $("#test3").val("Dolly Duck");
+        });
+      });
+    </script>
+  </body>
+</html>

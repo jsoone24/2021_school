@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      JavaScript program to calculate multiplication and division of two numbers
+    </title>
+    <style type="text/css">
+      body {
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 과제 1. 2개의 숫자를 곱하고, 나누는 javascript 함수를 coding하라. 
+        예로, Multiply 버튼을 click하면 result에 곱한 결과값을 입력-->
+    <form>
+      1st Number : <input type="text" id="firstNumber" /><br />
+      2nd Number: <input type="text" id="secondNumber" /><br />
+      <input type="button" onClick="multiplyBy()" value="Multiply" />
+      <input type="button" onClick="divideBy()" value="Divide" />
+    </form>
+    <p>
+      The Result is : <br />
+      <span id="result"></span>
+    </p>
+    <script>
+      function multiplyBy() {
+        var num_1 = document.getElementById("firstNumber").value;
+        var num_2 = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerText = String(num_1 * num_2);
+      }
+
+      function divideBy() {
+        var num_1 = document.getElementById("firstNumber").value;
+        var num_2 = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerText = String(num_1 / num_2);
+      }
+    </script>
+  </body>
+</html>

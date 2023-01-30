@@ -1,0 +1,1230 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALIGNED_ALLOC	common.h	24;"	d
+AO_AO_TS_T	atomic_ops/test_and_set_t_is_ao_t.h	36;"	d
+AO_BYTE_TS_clear	atomic_ops/test_and_set_t_is_char.h	/^typedef enum {AO_BYTE_TS_clear = 0, AO_BYTE_TS_set = 0xff} AO_BYTE_TS_val;$/;"	e	enum:__anon4
+AO_BYTE_TS_set	atomic_ops/test_and_set_t_is_char.h	/^typedef enum {AO_BYTE_TS_clear = 0, AO_BYTE_TS_set = 0xff} AO_BYTE_TS_val;$/;"	e	enum:__anon4
+AO_BYTE_TS_val	atomic_ops/test_and_set_t_is_char.h	/^typedef enum {AO_BYTE_TS_clear = 0, AO_BYTE_TS_set = 0xff} AO_BYTE_TS_val;$/;"	t	typeref:enum:__anon4
+AO_CAN_EMUL_CAS	atomic_ops/atomic_ops.h	221;"	d
+AO_CAN_EMUL_CAS	atomic_ops/atomic_ops.h	232;"	d
+AO_CAN_EMUL_CAS	atomic_ops/atomic_ops.h	243;"	d
+AO_CAN_EMUL_CAS	atomic_ops/atomic_ops.h	253;"	d
+AO_CAN_EMUL_CAS	atomic_ops/atomic_ops.h	282;"	d
+AO_CAN_EMUL_CAS	atomic_ops/atomic_ops.h	299;"	d
+AO_CHAR_TS_T	atomic_ops/test_and_set_t_is_char.h	35;"	d
+AO_CLEAR	atomic_ops/atomic_ops.h	326;"	d
+AO_CLEAR	atomic_ops/atomic_ops.h	329;"	d
+AO_GCC_BARRIER	atomic_ops/all_acquire_release_volatile.h	113;"	d
+AO_GCC_BARRIER	atomic_ops/all_acquire_release_volatile.h	115;"	d
+AO_GCC_BARRIER	atomic_ops/all_acquire_release_volatile.h	145;"	d
+AO_GCC_BARRIER	atomic_ops/all_acquire_release_volatile.h	147;"	d
+AO_GCC_BARRIER	atomic_ops/all_acquire_release_volatile.h	49;"	d
+AO_GCC_BARRIER	atomic_ops/all_acquire_release_volatile.h	51;"	d
+AO_GCC_BARRIER	atomic_ops/all_acquire_release_volatile.h	81;"	d
+AO_GCC_BARRIER	atomic_ops/all_acquire_release_volatile.h	83;"	d
+AO_GENERALIZE_TWICE	atomic_ops/atomic_ops.h	217;"	d
+AO_GENERALIZE_TWICE	atomic_ops/atomic_ops.h	225;"	d
+AO_GENERALIZE_TWICE	atomic_ops/atomic_ops.h	260;"	d
+AO_GENERALIZE_TWICE	atomic_ops/atomic_ops.h	279;"	d
+AO_HAVE_DOUBLE_PTR_STORAGE	atomic_ops/standard_ao_double_t.h	16;"	d
+AO_HAVE_NOP_READ	atomic_ops/read_ordered.h	36;"	d
+AO_HAVE_NOP_WRITE	atomic_ops/ordered_except_wr.h	40;"	d
+AO_HAVE_char_compare_and_swap_acquire	atomic_ops/ia64.h	213;"	d
+AO_HAVE_char_compare_and_swap_release	atomic_ops/ia64.h	228;"	d
+AO_HAVE_char_fetch_and_add	atomic_ops/generalize-small.h	217;"	d
+AO_HAVE_char_fetch_and_add	atomic_ops/generalize-small.h	223;"	d
+AO_HAVE_char_fetch_and_add	atomic_ops/generalize-small.h	229;"	d
+AO_HAVE_char_fetch_and_add	atomic_ops/generalize-small.h	235;"	d
+AO_HAVE_char_fetch_and_add1	atomic_ops/generalize-small.h	332;"	d
+AO_HAVE_char_fetch_and_add1	atomic_ops/generalize-small.h	362;"	d
+AO_HAVE_char_fetch_and_add1	atomic_ops/generalize-small.h	368;"	d
+AO_HAVE_char_fetch_and_add1	atomic_ops/generalize-small.h	374;"	d
+AO_HAVE_char_fetch_and_add1	atomic_ops/generalize-small.h	380;"	d
+AO_HAVE_char_fetch_and_add1_acquire	atomic_ops/generalize-small.h	302;"	d
+AO_HAVE_char_fetch_and_add1_acquire	atomic_ops/generalize-small.h	344;"	d
+AO_HAVE_char_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	326;"	d
+AO_HAVE_char_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	407;"	d
+AO_HAVE_char_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	413;"	d
+AO_HAVE_char_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	420;"	d
+AO_HAVE_char_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	426;"	d
+AO_HAVE_char_fetch_and_add1_full	atomic_ops/generalize-small.h	290;"	d
+AO_HAVE_char_fetch_and_add1_full	atomic_ops/generalize-small.h	388;"	d
+AO_HAVE_char_fetch_and_add1_read	atomic_ops/generalize-small.h	314;"	d
+AO_HAVE_char_fetch_and_add1_read	atomic_ops/generalize-small.h	354;"	d
+AO_HAVE_char_fetch_and_add1_release	atomic_ops/generalize-small.h	296;"	d
+AO_HAVE_char_fetch_and_add1_release	atomic_ops/generalize-small.h	339;"	d
+AO_HAVE_char_fetch_and_add1_release_write	atomic_ops/generalize-small.h	320;"	d
+AO_HAVE_char_fetch_and_add1_release_write	atomic_ops/generalize-small.h	395;"	d
+AO_HAVE_char_fetch_and_add1_release_write	atomic_ops/generalize-small.h	401;"	d
+AO_HAVE_char_fetch_and_add1_write	atomic_ops/generalize-small.h	308;"	d
+AO_HAVE_char_fetch_and_add1_write	atomic_ops/generalize-small.h	349;"	d
+AO_HAVE_char_fetch_and_add_acquire	atomic_ops/generalize-small.h	170;"	d
+AO_HAVE_char_fetch_and_add_acquire	atomic_ops/generalize-small.h	199;"	d
+AO_HAVE_char_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	261;"	d
+AO_HAVE_char_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	267;"	d
+AO_HAVE_char_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	274;"	d
+AO_HAVE_char_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	280;"	d
+AO_HAVE_char_fetch_and_add_full	atomic_ops/generalize-small.h	153;"	d
+AO_HAVE_char_fetch_and_add_full	atomic_ops/x86.h	84;"	d
+AO_HAVE_char_fetch_and_add_full	atomic_ops/x86_64.h	70;"	d
+AO_HAVE_char_fetch_and_add_read	atomic_ops/generalize-small.h	209;"	d
+AO_HAVE_char_fetch_and_add_release	atomic_ops/generalize-small.h	187;"	d
+AO_HAVE_char_fetch_and_add_release	atomic_ops/generalize-small.h	194;"	d
+AO_HAVE_char_fetch_and_add_release_write	atomic_ops/generalize-small.h	249;"	d
+AO_HAVE_char_fetch_and_add_release_write	atomic_ops/generalize-small.h	255;"	d
+AO_HAVE_char_fetch_and_add_write	atomic_ops/generalize-small.h	204;"	d
+AO_HAVE_char_fetch_and_sub1	atomic_ops/generalize-small.h	478;"	d
+AO_HAVE_char_fetch_and_sub1	atomic_ops/generalize-small.h	508;"	d
+AO_HAVE_char_fetch_and_sub1	atomic_ops/generalize-small.h	514;"	d
+AO_HAVE_char_fetch_and_sub1	atomic_ops/generalize-small.h	520;"	d
+AO_HAVE_char_fetch_and_sub1	atomic_ops/generalize-small.h	526;"	d
+AO_HAVE_char_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	448;"	d
+AO_HAVE_char_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	490;"	d
+AO_HAVE_char_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	472;"	d
+AO_HAVE_char_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	553;"	d
+AO_HAVE_char_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	559;"	d
+AO_HAVE_char_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	566;"	d
+AO_HAVE_char_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	572;"	d
+AO_HAVE_char_fetch_and_sub1_full	atomic_ops/generalize-small.h	436;"	d
+AO_HAVE_char_fetch_and_sub1_full	atomic_ops/generalize-small.h	534;"	d
+AO_HAVE_char_fetch_and_sub1_read	atomic_ops/generalize-small.h	460;"	d
+AO_HAVE_char_fetch_and_sub1_read	atomic_ops/generalize-small.h	500;"	d
+AO_HAVE_char_fetch_and_sub1_release	atomic_ops/generalize-small.h	442;"	d
+AO_HAVE_char_fetch_and_sub1_release	atomic_ops/generalize-small.h	485;"	d
+AO_HAVE_char_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	466;"	d
+AO_HAVE_char_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	541;"	d
+AO_HAVE_char_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	547;"	d
+AO_HAVE_char_fetch_and_sub1_write	atomic_ops/generalize-small.h	454;"	d
+AO_HAVE_char_fetch_and_sub1_write	atomic_ops/generalize-small.h	495;"	d
+AO_HAVE_char_load	atomic_ops/generalize-small.h	4;"	d
+AO_HAVE_char_load	atomic_ops/generalize-small.h	63;"	d
+AO_HAVE_char_load_acquire	atomic_ops/all_acquire_release_volatile.h	95;"	d
+AO_HAVE_char_load_acquire	atomic_ops/generalize-small.h	33;"	d
+AO_HAVE_char_load_acquire	atomic_ops/generalize-small.h	9;"	d
+AO_HAVE_char_load_acquire	atomic_ops/read_ordered.h	66;"	d
+AO_HAVE_char_load_acquire_read	atomic_ops/generalize-small.h	19;"	d
+AO_HAVE_char_load_acquire_read	atomic_ops/generalize-small.h	58;"	d
+AO_HAVE_char_load_dd_acquire_read	atomic_ops/generalize-small.h	70;"	d
+AO_HAVE_char_load_dd_acquire_read	atomic_ops/generalize-small.h	76;"	d
+AO_HAVE_char_load_full	atomic_ops/generalize-small.h	53;"	d
+AO_HAVE_char_load_read	atomic_ops/generalize-small.h	14;"	d
+AO_HAVE_char_load_read	atomic_ops/generalize-small.h	47;"	d
+AO_HAVE_char_load_read	atomic_ops/read_ordered.h	63;"	d
+AO_HAVE_char_store	atomic_ops/generalize-small.h	107;"	d
+AO_HAVE_char_store	atomic_ops/generalize-small.h	85;"	d
+AO_HAVE_char_store_full	atomic_ops/generalize-small.h	134;"	d
+AO_HAVE_char_store_release	atomic_ops/all_acquire_release_volatile.h	104;"	d
+AO_HAVE_char_store_release	atomic_ops/generalize-small.h	114;"	d
+AO_HAVE_char_store_release	atomic_ops/generalize-small.h	90;"	d
+AO_HAVE_char_store_release	atomic_ops/ordered_except_wr.h	68;"	d
+AO_HAVE_char_store_release_write	atomic_ops/generalize-small.h	102;"	d
+AO_HAVE_char_store_release_write	atomic_ops/generalize-small.h	127;"	d
+AO_HAVE_char_store_write	atomic_ops/generalize-small.h	121;"	d
+AO_HAVE_char_store_write	atomic_ops/generalize-small.h	95;"	d
+AO_HAVE_char_store_write	atomic_ops/ordered_except_wr.h	65;"	d
+AO_HAVE_compare_and_swap	atomic_ops/generalize.h	1014;"	d
+AO_HAVE_compare_and_swap	atomic_ops/generalize.h	1020;"	d
+AO_HAVE_compare_and_swap	atomic_ops/generalize.h	1026;"	d
+AO_HAVE_compare_and_swap	atomic_ops/generalize.h	1032;"	d
+AO_HAVE_compare_and_swap	atomic_ops/powerpc.h	240;"	d
+AO_HAVE_compare_and_swap_acquire	atomic_ops/generalize.h	979;"	d
+AO_HAVE_compare_and_swap_acquire	atomic_ops/generalize.h	996;"	d
+AO_HAVE_compare_and_swap_acquire	atomic_ops/ia64.h	181;"	d
+AO_HAVE_compare_and_swap_acquire	atomic_ops/powerpc.h	249;"	d
+AO_HAVE_compare_and_swap_acquire_read	atomic_ops/generalize.h	1059;"	d
+AO_HAVE_compare_and_swap_acquire_read	atomic_ops/generalize.h	1065;"	d
+AO_HAVE_compare_and_swap_dd_acquire_read	atomic_ops/generalize.h	1072;"	d
+AO_HAVE_compare_and_swap_dd_acquire_read	atomic_ops/generalize.h	1078;"	d
+AO_HAVE_compare_and_swap_double	atomic_ops/generalize.h	1248;"	d
+AO_HAVE_compare_and_swap_double	atomic_ops/generalize.h	1254;"	d
+AO_HAVE_compare_and_swap_double	atomic_ops/generalize.h	1260;"	d
+AO_HAVE_compare_and_swap_double	atomic_ops/generalize.h	1266;"	d
+AO_HAVE_compare_and_swap_double_acquire	atomic_ops/generalize.h	1212;"	d
+AO_HAVE_compare_and_swap_double_acquire	atomic_ops/generalize.h	1230;"	d
+AO_HAVE_compare_and_swap_double_acquire_read	atomic_ops/generalize.h	1293;"	d
+AO_HAVE_compare_and_swap_double_acquire_read	atomic_ops/generalize.h	1299;"	d
+AO_HAVE_compare_and_swap_double_dd_acquire_read	atomic_ops/generalize.h	1306;"	d
+AO_HAVE_compare_and_swap_double_dd_acquire_read	atomic_ops/generalize.h	1312;"	d
+AO_HAVE_compare_and_swap_double_full	atomic_ops/generalize.h	1274;"	d
+AO_HAVE_compare_and_swap_double_read	atomic_ops/generalize.h	1240;"	d
+AO_HAVE_compare_and_swap_double_release	atomic_ops/generalize.h	1219;"	d
+AO_HAVE_compare_and_swap_double_release	atomic_ops/generalize.h	1225;"	d
+AO_HAVE_compare_and_swap_double_release_write	atomic_ops/generalize.h	1281;"	d
+AO_HAVE_compare_and_swap_double_release_write	atomic_ops/generalize.h	1287;"	d
+AO_HAVE_compare_and_swap_double_write	atomic_ops/generalize.h	1235;"	d
+AO_HAVE_compare_and_swap_full	atomic_ops/generalize.h	1040;"	d
+AO_HAVE_compare_and_swap_full	atomic_ops/powerpc.h	268;"	d
+AO_HAVE_compare_and_swap_full	atomic_ops/sparc.h	65;"	d
+AO_HAVE_compare_and_swap_full	atomic_ops/x86.h	137;"	d
+AO_HAVE_compare_and_swap_full	atomic_ops/x86_64.h	135;"	d
+AO_HAVE_compare_and_swap_read	atomic_ops/generalize.h	1006;"	d
+AO_HAVE_compare_and_swap_release	atomic_ops/generalize.h	985;"	d
+AO_HAVE_compare_and_swap_release	atomic_ops/generalize.h	991;"	d
+AO_HAVE_compare_and_swap_release	atomic_ops/ia64.h	198;"	d
+AO_HAVE_compare_and_swap_release	atomic_ops/powerpc.h	257;"	d
+AO_HAVE_compare_and_swap_release_write	atomic_ops/generalize.h	1047;"	d
+AO_HAVE_compare_and_swap_release_write	atomic_ops/generalize.h	1053;"	d
+AO_HAVE_compare_and_swap_write	atomic_ops/generalize.h	1001;"	d
+AO_HAVE_compare_double_and_swap_double	atomic_ops/generalize.h	1132;"	d
+AO_HAVE_compare_double_and_swap_double	atomic_ops/generalize.h	1138;"	d
+AO_HAVE_compare_double_and_swap_double	atomic_ops/generalize.h	1144;"	d
+AO_HAVE_compare_double_and_swap_double	atomic_ops/generalize.h	1150;"	d
+AO_HAVE_compare_double_and_swap_double_acquire	atomic_ops/generalize.h	1096;"	d
+AO_HAVE_compare_double_and_swap_double_acquire	atomic_ops/generalize.h	1114;"	d
+AO_HAVE_compare_double_and_swap_double_acquire_read	atomic_ops/generalize.h	1177;"	d
+AO_HAVE_compare_double_and_swap_double_acquire_read	atomic_ops/generalize.h	1183;"	d
+AO_HAVE_compare_double_and_swap_double_dd_acquire_read	atomic_ops/generalize.h	1190;"	d
+AO_HAVE_compare_double_and_swap_double_dd_acquire_read	atomic_ops/generalize.h	1196;"	d
+AO_HAVE_compare_double_and_swap_double_full	atomic_ops/generalize.h	1158;"	d
+AO_HAVE_compare_double_and_swap_double_full	atomic_ops/x86.h	171;"	d
+AO_HAVE_compare_double_and_swap_double_full	atomic_ops/x86_64.h	159;"	d
+AO_HAVE_compare_double_and_swap_double_full	atomic_ops/x86_64.h	179;"	d
+AO_HAVE_compare_double_and_swap_double_read	atomic_ops/generalize.h	1124;"	d
+AO_HAVE_compare_double_and_swap_double_release	atomic_ops/generalize.h	1103;"	d
+AO_HAVE_compare_double_and_swap_double_release	atomic_ops/generalize.h	1109;"	d
+AO_HAVE_compare_double_and_swap_double_release_write	atomic_ops/generalize.h	1165;"	d
+AO_HAVE_compare_double_and_swap_double_release_write	atomic_ops/generalize.h	1171;"	d
+AO_HAVE_compare_double_and_swap_double_write	atomic_ops/generalize.h	1119;"	d
+AO_HAVE_double_compare_and_swap_acquire	atomic_ops/generalize.h	1341;"	d
+AO_HAVE_double_compare_and_swap_full	atomic_ops/generalize.h	1354;"	d
+AO_HAVE_double_compare_and_swap_release	atomic_ops/generalize.h	1328;"	d
+AO_HAVE_double_t	atomic_ops/standard_ao_double_t.h	23;"	d
+AO_HAVE_fetch_and_add	atomic_ops/generalize.h	393;"	d
+AO_HAVE_fetch_and_add	atomic_ops/generalize.h	423;"	d
+AO_HAVE_fetch_and_add	atomic_ops/generalize.h	429;"	d
+AO_HAVE_fetch_and_add	atomic_ops/generalize.h	435;"	d
+AO_HAVE_fetch_and_add	atomic_ops/generalize.h	441;"	d
+AO_HAVE_fetch_and_add	atomic_ops/powerpc.h	290;"	d
+AO_HAVE_fetch_and_add	atomic_ops/powerpc.h	311;"	d
+AO_HAVE_fetch_and_add1	atomic_ops/generalize.h	534;"	d
+AO_HAVE_fetch_and_add1	atomic_ops/generalize.h	564;"	d
+AO_HAVE_fetch_and_add1	atomic_ops/generalize.h	570;"	d
+AO_HAVE_fetch_and_add1	atomic_ops/generalize.h	576;"	d
+AO_HAVE_fetch_and_add1	atomic_ops/generalize.h	582;"	d
+AO_HAVE_fetch_and_add1_acquire	atomic_ops/generalize.h	506;"	d
+AO_HAVE_fetch_and_add1_acquire	atomic_ops/generalize.h	546;"	d
+AO_HAVE_fetch_and_add1_acquire	atomic_ops/ia64.h	74;"	d
+AO_HAVE_fetch_and_add1_acquire_read	atomic_ops/generalize.h	528;"	d
+AO_HAVE_fetch_and_add1_acquire_read	atomic_ops/generalize.h	609;"	d
+AO_HAVE_fetch_and_add1_acquire_read	atomic_ops/generalize.h	615;"	d
+AO_HAVE_fetch_and_add1_dd_acquire_read	atomic_ops/generalize.h	622;"	d
+AO_HAVE_fetch_and_add1_dd_acquire_read	atomic_ops/generalize.h	627;"	d
+AO_HAVE_fetch_and_add1_full	atomic_ops/generalize.h	496;"	d
+AO_HAVE_fetch_and_add1_full	atomic_ops/generalize.h	590;"	d
+AO_HAVE_fetch_and_add1_read	atomic_ops/generalize.h	516;"	d
+AO_HAVE_fetch_and_add1_read	atomic_ops/generalize.h	556;"	d
+AO_HAVE_fetch_and_add1_release	atomic_ops/generalize.h	501;"	d
+AO_HAVE_fetch_and_add1_release	atomic_ops/generalize.h	541;"	d
+AO_HAVE_fetch_and_add1_release	atomic_ops/ia64.h	87;"	d
+AO_HAVE_fetch_and_add1_release_write	atomic_ops/generalize.h	522;"	d
+AO_HAVE_fetch_and_add1_release_write	atomic_ops/generalize.h	597;"	d
+AO_HAVE_fetch_and_add1_release_write	atomic_ops/generalize.h	603;"	d
+AO_HAVE_fetch_and_add1_write	atomic_ops/generalize.h	511;"	d
+AO_HAVE_fetch_and_add1_write	atomic_ops/generalize.h	551;"	d
+AO_HAVE_fetch_and_add_acquire	atomic_ops/generalize.h	361;"	d
+AO_HAVE_fetch_and_add_acquire	atomic_ops/generalize.h	405;"	d
+AO_HAVE_fetch_and_add_acquire	atomic_ops/powerpc.h	322;"	d
+AO_HAVE_fetch_and_add_acquire_read	atomic_ops/generalize.h	468;"	d
+AO_HAVE_fetch_and_add_acquire_read	atomic_ops/generalize.h	474;"	d
+AO_HAVE_fetch_and_add_dd_acquire_read	atomic_ops/generalize.h	481;"	d
+AO_HAVE_fetch_and_add_dd_acquire_read	atomic_ops/generalize.h	487;"	d
+AO_HAVE_fetch_and_add_full	atomic_ops/generalize.h	345;"	d
+AO_HAVE_fetch_and_add_full	atomic_ops/generalize.h	449;"	d
+AO_HAVE_fetch_and_add_full	atomic_ops/powerpc.h	341;"	d
+AO_HAVE_fetch_and_add_full	atomic_ops/x86.h	71;"	d
+AO_HAVE_fetch_and_add_full	atomic_ops/x86_64.h	57;"	d
+AO_HAVE_fetch_and_add_read	atomic_ops/generalize.h	415;"	d
+AO_HAVE_fetch_and_add_release	atomic_ops/generalize.h	377;"	d
+AO_HAVE_fetch_and_add_release	atomic_ops/generalize.h	400;"	d
+AO_HAVE_fetch_and_add_release	atomic_ops/powerpc.h	330;"	d
+AO_HAVE_fetch_and_add_release_write	atomic_ops/generalize.h	456;"	d
+AO_HAVE_fetch_and_add_release_write	atomic_ops/generalize.h	462;"	d
+AO_HAVE_fetch_and_add_write	atomic_ops/generalize.h	410;"	d
+AO_HAVE_fetch_and_sub1	atomic_ops/generalize.h	678;"	d
+AO_HAVE_fetch_and_sub1	atomic_ops/generalize.h	708;"	d
+AO_HAVE_fetch_and_sub1	atomic_ops/generalize.h	714;"	d
+AO_HAVE_fetch_and_sub1	atomic_ops/generalize.h	720;"	d
+AO_HAVE_fetch_and_sub1	atomic_ops/generalize.h	726;"	d
+AO_HAVE_fetch_and_sub1_acquire	atomic_ops/generalize.h	648;"	d
+AO_HAVE_fetch_and_sub1_acquire	atomic_ops/generalize.h	690;"	d
+AO_HAVE_fetch_and_sub1_acquire	atomic_ops/ia64.h	100;"	d
+AO_HAVE_fetch_and_sub1_acquire_read	atomic_ops/generalize.h	672;"	d
+AO_HAVE_fetch_and_sub1_acquire_read	atomic_ops/generalize.h	753;"	d
+AO_HAVE_fetch_and_sub1_acquire_read	atomic_ops/generalize.h	759;"	d
+AO_HAVE_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize.h	766;"	d
+AO_HAVE_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize.h	771;"	d
+AO_HAVE_fetch_and_sub1_full	atomic_ops/generalize.h	636;"	d
+AO_HAVE_fetch_and_sub1_full	atomic_ops/generalize.h	734;"	d
+AO_HAVE_fetch_and_sub1_read	atomic_ops/generalize.h	660;"	d
+AO_HAVE_fetch_and_sub1_read	atomic_ops/generalize.h	700;"	d
+AO_HAVE_fetch_and_sub1_release	atomic_ops/generalize.h	642;"	d
+AO_HAVE_fetch_and_sub1_release	atomic_ops/generalize.h	685;"	d
+AO_HAVE_fetch_and_sub1_release	atomic_ops/ia64.h	113;"	d
+AO_HAVE_fetch_and_sub1_release_write	atomic_ops/generalize.h	666;"	d
+AO_HAVE_fetch_and_sub1_release_write	atomic_ops/generalize.h	741;"	d
+AO_HAVE_fetch_and_sub1_release_write	atomic_ops/generalize.h	747;"	d
+AO_HAVE_fetch_and_sub1_write	atomic_ops/generalize.h	654;"	d
+AO_HAVE_fetch_and_sub1_write	atomic_ops/generalize.h	695;"	d
+AO_HAVE_int_compare_and_swap	atomic_ops/ao_t_is_int.h	76;"	d
+AO_HAVE_int_compare_and_swap_acquire	atomic_ops/ao_t_is_int.h	44;"	d
+AO_HAVE_int_compare_and_swap_acquire	atomic_ops/ia64.h	273;"	d
+AO_HAVE_int_compare_and_swap_full	atomic_ops/ao_t_is_int.h	36;"	d
+AO_HAVE_int_compare_and_swap_read	atomic_ops/ao_t_is_int.h	68;"	d
+AO_HAVE_int_compare_and_swap_release	atomic_ops/ao_t_is_int.h	52;"	d
+AO_HAVE_int_compare_and_swap_release	atomic_ops/ia64.h	286;"	d
+AO_HAVE_int_compare_and_swap_write	atomic_ops/ao_t_is_int.h	60;"	d
+AO_HAVE_int_fetch_and_add	atomic_ops/generalize-small.h	1367;"	d
+AO_HAVE_int_fetch_and_add	atomic_ops/generalize-small.h	1373;"	d
+AO_HAVE_int_fetch_and_add	atomic_ops/generalize-small.h	1379;"	d
+AO_HAVE_int_fetch_and_add	atomic_ops/generalize-small.h	1385;"	d
+AO_HAVE_int_fetch_and_add1	atomic_ops/generalize-small.h	1482;"	d
+AO_HAVE_int_fetch_and_add1	atomic_ops/generalize-small.h	1512;"	d
+AO_HAVE_int_fetch_and_add1	atomic_ops/generalize-small.h	1518;"	d
+AO_HAVE_int_fetch_and_add1	atomic_ops/generalize-small.h	1524;"	d
+AO_HAVE_int_fetch_and_add1	atomic_ops/generalize-small.h	1530;"	d
+AO_HAVE_int_fetch_and_add1_acquire	atomic_ops/ao_t_is_int.h	104;"	d
+AO_HAVE_int_fetch_and_add1_acquire	atomic_ops/generalize-small.h	1452;"	d
+AO_HAVE_int_fetch_and_add1_acquire	atomic_ops/generalize-small.h	1494;"	d
+AO_HAVE_int_fetch_and_add1_acquire	atomic_ops/ia64.h	126;"	d
+AO_HAVE_int_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	1476;"	d
+AO_HAVE_int_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	1557;"	d
+AO_HAVE_int_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	1563;"	d
+AO_HAVE_int_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	1570;"	d
+AO_HAVE_int_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	1576;"	d
+AO_HAVE_int_fetch_and_add1_full	atomic_ops/generalize-small.h	1440;"	d
+AO_HAVE_int_fetch_and_add1_full	atomic_ops/generalize-small.h	1538;"	d
+AO_HAVE_int_fetch_and_add1_read	atomic_ops/generalize-small.h	1464;"	d
+AO_HAVE_int_fetch_and_add1_read	atomic_ops/generalize-small.h	1504;"	d
+AO_HAVE_int_fetch_and_add1_release	atomic_ops/ao_t_is_int.h	111;"	d
+AO_HAVE_int_fetch_and_add1_release	atomic_ops/generalize-small.h	1446;"	d
+AO_HAVE_int_fetch_and_add1_release	atomic_ops/generalize-small.h	1489;"	d
+AO_HAVE_int_fetch_and_add1_release	atomic_ops/ia64.h	138;"	d
+AO_HAVE_int_fetch_and_add1_release_write	atomic_ops/generalize-small.h	1470;"	d
+AO_HAVE_int_fetch_and_add1_release_write	atomic_ops/generalize-small.h	1545;"	d
+AO_HAVE_int_fetch_and_add1_release_write	atomic_ops/generalize-small.h	1551;"	d
+AO_HAVE_int_fetch_and_add1_write	atomic_ops/generalize-small.h	1458;"	d
+AO_HAVE_int_fetch_and_add1_write	atomic_ops/generalize-small.h	1499;"	d
+AO_HAVE_int_fetch_and_add_acquire	atomic_ops/generalize-small.h	1320;"	d
+AO_HAVE_int_fetch_and_add_acquire	atomic_ops/generalize-small.h	1349;"	d
+AO_HAVE_int_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	1411;"	d
+AO_HAVE_int_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	1417;"	d
+AO_HAVE_int_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	1424;"	d
+AO_HAVE_int_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	1430;"	d
+AO_HAVE_int_fetch_and_add_full	atomic_ops/ao_t_is_int.h	97;"	d
+AO_HAVE_int_fetch_and_add_full	atomic_ops/generalize-small.h	1303;"	d
+AO_HAVE_int_fetch_and_add_full	atomic_ops/x86_64.h	96;"	d
+AO_HAVE_int_fetch_and_add_read	atomic_ops/generalize-small.h	1359;"	d
+AO_HAVE_int_fetch_and_add_release	atomic_ops/generalize-small.h	1337;"	d
+AO_HAVE_int_fetch_and_add_release	atomic_ops/generalize-small.h	1344;"	d
+AO_HAVE_int_fetch_and_add_release_write	atomic_ops/generalize-small.h	1399;"	d
+AO_HAVE_int_fetch_and_add_release_write	atomic_ops/generalize-small.h	1405;"	d
+AO_HAVE_int_fetch_and_add_write	atomic_ops/generalize-small.h	1354;"	d
+AO_HAVE_int_fetch_and_sub1	atomic_ops/generalize-small.h	1628;"	d
+AO_HAVE_int_fetch_and_sub1	atomic_ops/generalize-small.h	1658;"	d
+AO_HAVE_int_fetch_and_sub1	atomic_ops/generalize-small.h	1664;"	d
+AO_HAVE_int_fetch_and_sub1	atomic_ops/generalize-small.h	1670;"	d
+AO_HAVE_int_fetch_and_sub1	atomic_ops/generalize-small.h	1676;"	d
+AO_HAVE_int_fetch_and_sub1_acquire	atomic_ops/ao_t_is_int.h	118;"	d
+AO_HAVE_int_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	1598;"	d
+AO_HAVE_int_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	1640;"	d
+AO_HAVE_int_fetch_and_sub1_acquire	atomic_ops/ia64.h	150;"	d
+AO_HAVE_int_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1622;"	d
+AO_HAVE_int_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1703;"	d
+AO_HAVE_int_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1709;"	d
+AO_HAVE_int_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	1716;"	d
+AO_HAVE_int_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	1722;"	d
+AO_HAVE_int_fetch_and_sub1_full	atomic_ops/generalize-small.h	1586;"	d
+AO_HAVE_int_fetch_and_sub1_full	atomic_ops/generalize-small.h	1684;"	d
+AO_HAVE_int_fetch_and_sub1_read	atomic_ops/generalize-small.h	1610;"	d
+AO_HAVE_int_fetch_and_sub1_read	atomic_ops/generalize-small.h	1650;"	d
+AO_HAVE_int_fetch_and_sub1_release	atomic_ops/ao_t_is_int.h	125;"	d
+AO_HAVE_int_fetch_and_sub1_release	atomic_ops/generalize-small.h	1592;"	d
+AO_HAVE_int_fetch_and_sub1_release	atomic_ops/generalize-small.h	1635;"	d
+AO_HAVE_int_fetch_and_sub1_release	atomic_ops/ia64.h	162;"	d
+AO_HAVE_int_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1616;"	d
+AO_HAVE_int_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1691;"	d
+AO_HAVE_int_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1697;"	d
+AO_HAVE_int_fetch_and_sub1_write	atomic_ops/generalize-small.h	1604;"	d
+AO_HAVE_int_fetch_and_sub1_write	atomic_ops/generalize-small.h	1645;"	d
+AO_HAVE_int_load	atomic_ops/generalize-small.h	1154;"	d
+AO_HAVE_int_load	atomic_ops/generalize-small.h	1213;"	d
+AO_HAVE_int_load_acquire	atomic_ops/all_acquire_release_volatile.h	159;"	d
+AO_HAVE_int_load_acquire	atomic_ops/ao_t_is_int.h	83;"	d
+AO_HAVE_int_load_acquire	atomic_ops/generalize-small.h	1159;"	d
+AO_HAVE_int_load_acquire	atomic_ops/generalize-small.h	1183;"	d
+AO_HAVE_int_load_acquire	atomic_ops/read_ordered.h	98;"	d
+AO_HAVE_int_load_acquire_read	atomic_ops/generalize-small.h	1169;"	d
+AO_HAVE_int_load_acquire_read	atomic_ops/generalize-small.h	1208;"	d
+AO_HAVE_int_load_dd_acquire_read	atomic_ops/generalize-small.h	1220;"	d
+AO_HAVE_int_load_dd_acquire_read	atomic_ops/generalize-small.h	1226;"	d
+AO_HAVE_int_load_full	atomic_ops/generalize-small.h	1203;"	d
+AO_HAVE_int_load_read	atomic_ops/generalize-small.h	1164;"	d
+AO_HAVE_int_load_read	atomic_ops/generalize-small.h	1197;"	d
+AO_HAVE_int_load_read	atomic_ops/read_ordered.h	95;"	d
+AO_HAVE_int_store	atomic_ops/generalize-small.h	1235;"	d
+AO_HAVE_int_store	atomic_ops/generalize-small.h	1257;"	d
+AO_HAVE_int_store_full	atomic_ops/generalize-small.h	1284;"	d
+AO_HAVE_int_store_release	atomic_ops/all_acquire_release_volatile.h	168;"	d
+AO_HAVE_int_store_release	atomic_ops/ao_t_is_int.h	90;"	d
+AO_HAVE_int_store_release	atomic_ops/generalize-small.h	1240;"	d
+AO_HAVE_int_store_release	atomic_ops/generalize-small.h	1264;"	d
+AO_HAVE_int_store_release	atomic_ops/ordered_except_wr.h	98;"	d
+AO_HAVE_int_store_release_write	atomic_ops/generalize-small.h	1252;"	d
+AO_HAVE_int_store_release_write	atomic_ops/generalize-small.h	1277;"	d
+AO_HAVE_int_store_write	atomic_ops/generalize-small.h	1245;"	d
+AO_HAVE_int_store_write	atomic_ops/generalize-small.h	1271;"	d
+AO_HAVE_int_store_write	atomic_ops/ordered_except_wr.h	95;"	d
+AO_HAVE_load	atomic_ops/aligned_atomic_load_store.h	37;"	d
+AO_HAVE_load	atomic_ops/generalize.h	185;"	d
+AO_HAVE_load	atomic_ops/generalize.h	239;"	d
+AO_HAVE_load_acquire	atomic_ops/all_acquire_release_volatile.h	63;"	d
+AO_HAVE_load_acquire	atomic_ops/generalize.h	180;"	d
+AO_HAVE_load_acquire	atomic_ops/generalize.h	209;"	d
+AO_HAVE_load_acquire	atomic_ops/powerpc.h	105;"	d
+AO_HAVE_load_acquire	atomic_ops/powerpc.h	116;"	d
+AO_HAVE_load_acquire	atomic_ops/read_ordered.h	50;"	d
+AO_HAVE_load_acquire_read	atomic_ops/generalize.h	195;"	d
+AO_HAVE_load_acquire_read	atomic_ops/generalize.h	234;"	d
+AO_HAVE_load_dd_acquire_read	atomic_ops/generalize.h	245;"	d
+AO_HAVE_load_dd_acquire_read	atomic_ops/generalize.h	250;"	d
+AO_HAVE_load_full	atomic_ops/generalize.h	229;"	d
+AO_HAVE_load_read	atomic_ops/generalize.h	190;"	d
+AO_HAVE_load_read	atomic_ops/generalize.h	223;"	d
+AO_HAVE_load_read	atomic_ops/read_ordered.h	47;"	d
+AO_HAVE_nop	atomic_ops/generalize.h	147;"	d
+AO_HAVE_nop_full	atomic_ops/generalize.h	157;"	d
+AO_HAVE_nop_full	atomic_ops/ia64.h	62;"	d
+AO_HAVE_nop_full	atomic_ops/powerpc.h	45;"	d
+AO_HAVE_nop_full	atomic_ops/x86.h	46;"	d
+AO_HAVE_nop_full	atomic_ops/x86_64.h	41;"	d
+AO_HAVE_nop_read	atomic_ops/generalize.h	169;"	d
+AO_HAVE_nop_read	atomic_ops/powerpc.h	62;"	d
+AO_HAVE_nop_write	atomic_ops/generalize.h	174;"	d
+AO_HAVE_nop_write	atomic_ops/powerpc.h	59;"	d
+AO_HAVE_or	atomic_ops/generalize.h	818;"	d
+AO_HAVE_or	atomic_ops/generalize.h	824;"	d
+AO_HAVE_or	atomic_ops/generalize.h	830;"	d
+AO_HAVE_or	atomic_ops/generalize.h	836;"	d
+AO_HAVE_or_acquire	atomic_ops/generalize.h	800;"	d
+AO_HAVE_or_acquire_read	atomic_ops/generalize.h	862;"	d
+AO_HAVE_or_acquire_read	atomic_ops/generalize.h	868;"	d
+AO_HAVE_or_full	atomic_ops/generalize.h	788;"	d
+AO_HAVE_or_full	atomic_ops/x86.h	107;"	d
+AO_HAVE_or_full	atomic_ops/x86_64.h	105;"	d
+AO_HAVE_or_read	atomic_ops/generalize.h	810;"	d
+AO_HAVE_or_release	atomic_ops/generalize.h	795;"	d
+AO_HAVE_or_release_write	atomic_ops/generalize.h	850;"	d
+AO_HAVE_or_release_write	atomic_ops/generalize.h	856;"	d
+AO_HAVE_or_write	atomic_ops/generalize.h	805;"	d
+AO_HAVE_short_compare_and_swap_acquire	atomic_ops/ia64.h	243;"	d
+AO_HAVE_short_compare_and_swap_release	atomic_ops/ia64.h	258;"	d
+AO_HAVE_short_fetch_and_add	atomic_ops/generalize-small.h	792;"	d
+AO_HAVE_short_fetch_and_add	atomic_ops/generalize-small.h	798;"	d
+AO_HAVE_short_fetch_and_add	atomic_ops/generalize-small.h	804;"	d
+AO_HAVE_short_fetch_and_add	atomic_ops/generalize-small.h	810;"	d
+AO_HAVE_short_fetch_and_add1	atomic_ops/generalize-small.h	907;"	d
+AO_HAVE_short_fetch_and_add1	atomic_ops/generalize-small.h	937;"	d
+AO_HAVE_short_fetch_and_add1	atomic_ops/generalize-small.h	943;"	d
+AO_HAVE_short_fetch_and_add1	atomic_ops/generalize-small.h	949;"	d
+AO_HAVE_short_fetch_and_add1	atomic_ops/generalize-small.h	955;"	d
+AO_HAVE_short_fetch_and_add1_acquire	atomic_ops/generalize-small.h	877;"	d
+AO_HAVE_short_fetch_and_add1_acquire	atomic_ops/generalize-small.h	919;"	d
+AO_HAVE_short_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	901;"	d
+AO_HAVE_short_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	982;"	d
+AO_HAVE_short_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	988;"	d
+AO_HAVE_short_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	1001;"	d
+AO_HAVE_short_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	995;"	d
+AO_HAVE_short_fetch_and_add1_full	atomic_ops/generalize-small.h	865;"	d
+AO_HAVE_short_fetch_and_add1_full	atomic_ops/generalize-small.h	963;"	d
+AO_HAVE_short_fetch_and_add1_read	atomic_ops/generalize-small.h	889;"	d
+AO_HAVE_short_fetch_and_add1_read	atomic_ops/generalize-small.h	929;"	d
+AO_HAVE_short_fetch_and_add1_release	atomic_ops/generalize-small.h	871;"	d
+AO_HAVE_short_fetch_and_add1_release	atomic_ops/generalize-small.h	914;"	d
+AO_HAVE_short_fetch_and_add1_release_write	atomic_ops/generalize-small.h	895;"	d
+AO_HAVE_short_fetch_and_add1_release_write	atomic_ops/generalize-small.h	970;"	d
+AO_HAVE_short_fetch_and_add1_release_write	atomic_ops/generalize-small.h	976;"	d
+AO_HAVE_short_fetch_and_add1_write	atomic_ops/generalize-small.h	883;"	d
+AO_HAVE_short_fetch_and_add1_write	atomic_ops/generalize-small.h	924;"	d
+AO_HAVE_short_fetch_and_add_acquire	atomic_ops/generalize-small.h	745;"	d
+AO_HAVE_short_fetch_and_add_acquire	atomic_ops/generalize-small.h	774;"	d
+AO_HAVE_short_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	836;"	d
+AO_HAVE_short_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	842;"	d
+AO_HAVE_short_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	849;"	d
+AO_HAVE_short_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	855;"	d
+AO_HAVE_short_fetch_and_add_full	atomic_ops/generalize-small.h	728;"	d
+AO_HAVE_short_fetch_and_add_full	atomic_ops/x86.h	97;"	d
+AO_HAVE_short_fetch_and_add_full	atomic_ops/x86_64.h	83;"	d
+AO_HAVE_short_fetch_and_add_read	atomic_ops/generalize-small.h	784;"	d
+AO_HAVE_short_fetch_and_add_release	atomic_ops/generalize-small.h	762;"	d
+AO_HAVE_short_fetch_and_add_release	atomic_ops/generalize-small.h	769;"	d
+AO_HAVE_short_fetch_and_add_release_write	atomic_ops/generalize-small.h	824;"	d
+AO_HAVE_short_fetch_and_add_release_write	atomic_ops/generalize-small.h	830;"	d
+AO_HAVE_short_fetch_and_add_write	atomic_ops/generalize-small.h	779;"	d
+AO_HAVE_short_fetch_and_sub1	atomic_ops/generalize-small.h	1053;"	d
+AO_HAVE_short_fetch_and_sub1	atomic_ops/generalize-small.h	1083;"	d
+AO_HAVE_short_fetch_and_sub1	atomic_ops/generalize-small.h	1089;"	d
+AO_HAVE_short_fetch_and_sub1	atomic_ops/generalize-small.h	1095;"	d
+AO_HAVE_short_fetch_and_sub1	atomic_ops/generalize-small.h	1101;"	d
+AO_HAVE_short_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	1023;"	d
+AO_HAVE_short_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	1065;"	d
+AO_HAVE_short_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1047;"	d
+AO_HAVE_short_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1128;"	d
+AO_HAVE_short_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1134;"	d
+AO_HAVE_short_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	1141;"	d
+AO_HAVE_short_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	1147;"	d
+AO_HAVE_short_fetch_and_sub1_full	atomic_ops/generalize-small.h	1011;"	d
+AO_HAVE_short_fetch_and_sub1_full	atomic_ops/generalize-small.h	1109;"	d
+AO_HAVE_short_fetch_and_sub1_read	atomic_ops/generalize-small.h	1035;"	d
+AO_HAVE_short_fetch_and_sub1_read	atomic_ops/generalize-small.h	1075;"	d
+AO_HAVE_short_fetch_and_sub1_release	atomic_ops/generalize-small.h	1017;"	d
+AO_HAVE_short_fetch_and_sub1_release	atomic_ops/generalize-small.h	1060;"	d
+AO_HAVE_short_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1041;"	d
+AO_HAVE_short_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1116;"	d
+AO_HAVE_short_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1122;"	d
+AO_HAVE_short_fetch_and_sub1_write	atomic_ops/generalize-small.h	1029;"	d
+AO_HAVE_short_fetch_and_sub1_write	atomic_ops/generalize-small.h	1070;"	d
+AO_HAVE_short_load	atomic_ops/generalize-small.h	579;"	d
+AO_HAVE_short_load	atomic_ops/generalize-small.h	638;"	d
+AO_HAVE_short_load_acquire	atomic_ops/all_acquire_release_volatile.h	127;"	d
+AO_HAVE_short_load_acquire	atomic_ops/generalize-small.h	584;"	d
+AO_HAVE_short_load_acquire	atomic_ops/generalize-small.h	608;"	d
+AO_HAVE_short_load_acquire	atomic_ops/read_ordered.h	82;"	d
+AO_HAVE_short_load_acquire_read	atomic_ops/generalize-small.h	594;"	d
+AO_HAVE_short_load_acquire_read	atomic_ops/generalize-small.h	633;"	d
+AO_HAVE_short_load_dd_acquire_read	atomic_ops/generalize-small.h	645;"	d
+AO_HAVE_short_load_dd_acquire_read	atomic_ops/generalize-small.h	651;"	d
+AO_HAVE_short_load_full	atomic_ops/generalize-small.h	628;"	d
+AO_HAVE_short_load_read	atomic_ops/generalize-small.h	589;"	d
+AO_HAVE_short_load_read	atomic_ops/generalize-small.h	622;"	d
+AO_HAVE_short_load_read	atomic_ops/read_ordered.h	79;"	d
+AO_HAVE_short_store	atomic_ops/generalize-small.h	660;"	d
+AO_HAVE_short_store	atomic_ops/generalize-small.h	682;"	d
+AO_HAVE_short_store_full	atomic_ops/generalize-small.h	709;"	d
+AO_HAVE_short_store_release	atomic_ops/all_acquire_release_volatile.h	136;"	d
+AO_HAVE_short_store_release	atomic_ops/generalize-small.h	665;"	d
+AO_HAVE_short_store_release	atomic_ops/generalize-small.h	689;"	d
+AO_HAVE_short_store_release	atomic_ops/ordered_except_wr.h	83;"	d
+AO_HAVE_short_store_release_write	atomic_ops/generalize-small.h	677;"	d
+AO_HAVE_short_store_release_write	atomic_ops/generalize-small.h	702;"	d
+AO_HAVE_short_store_write	atomic_ops/generalize-small.h	670;"	d
+AO_HAVE_short_store_write	atomic_ops/generalize-small.h	696;"	d
+AO_HAVE_short_store_write	atomic_ops/ordered_except_wr.h	80;"	d
+AO_HAVE_store	atomic_ops/aligned_atomic_load_store.h	46;"	d
+AO_HAVE_store	atomic_ops/generalize.h	264;"	d
+AO_HAVE_store	atomic_ops/generalize.h	279;"	d
+AO_HAVE_store_full	atomic_ops/generalize.h	302;"	d
+AO_HAVE_store_release	atomic_ops/all_acquire_release_volatile.h	72;"	d
+AO_HAVE_store_release	atomic_ops/generalize.h	259;"	d
+AO_HAVE_store_release	atomic_ops/generalize.h	285;"	d
+AO_HAVE_store_release	atomic_ops/ordered_except_wr.h	53;"	d
+AO_HAVE_store_release_write	atomic_ops/generalize.h	274;"	d
+AO_HAVE_store_release_write	atomic_ops/generalize.h	296;"	d
+AO_HAVE_store_write	atomic_ops/generalize.h	269;"	d
+AO_HAVE_store_write	atomic_ops/generalize.h	291;"	d
+AO_HAVE_store_write	atomic_ops/ordered_except_wr.h	50;"	d
+AO_HAVE_test_and_set	atomic_ops/generalize.h	127;"	d
+AO_HAVE_test_and_set	atomic_ops/generalize.h	902;"	d
+AO_HAVE_test_and_set	atomic_ops/generalize.h	908;"	d
+AO_HAVE_test_and_set	atomic_ops/generalize.h	914;"	d
+AO_HAVE_test_and_set	atomic_ops/generalize.h	920;"	d
+AO_HAVE_test_and_set	atomic_ops/powerpc.h	165;"	d
+AO_HAVE_test_and_set_acquire	atomic_ops/generalize.h	101;"	d
+AO_HAVE_test_and_set_acquire	atomic_ops/generalize.h	139;"	d
+AO_HAVE_test_and_set_acquire	atomic_ops/generalize.h	324;"	d
+AO_HAVE_test_and_set_acquire	atomic_ops/generalize.h	884;"	d
+AO_HAVE_test_and_set_acquire	atomic_ops/powerpc.h	174;"	d
+AO_HAVE_test_and_set_acquire_read	atomic_ops/generalize.h	947;"	d
+AO_HAVE_test_and_set_acquire_read	atomic_ops/generalize.h	953;"	d
+AO_HAVE_test_and_set_dd_acquire_read	atomic_ops/generalize.h	960;"	d
+AO_HAVE_test_and_set_dd_acquire_read	atomic_ops/generalize.h	965;"	d
+AO_HAVE_test_and_set_full	atomic_ops/generalize.h	88;"	d
+AO_HAVE_test_and_set_full	atomic_ops/generalize.h	928;"	d
+AO_HAVE_test_and_set_full	atomic_ops/powerpc.h	193;"	d
+AO_HAVE_test_and_set_full	atomic_ops/sparc.h	40;"	d
+AO_HAVE_test_and_set_full	atomic_ops/x86.h	120;"	d
+AO_HAVE_test_and_set_full	atomic_ops/x86_64.h	118;"	d
+AO_HAVE_test_and_set_read	atomic_ops/generalize.h	894;"	d
+AO_HAVE_test_and_set_release	atomic_ops/generalize.h	114;"	d
+AO_HAVE_test_and_set_release	atomic_ops/generalize.h	311;"	d
+AO_HAVE_test_and_set_release	atomic_ops/generalize.h	879;"	d
+AO_HAVE_test_and_set_release	atomic_ops/powerpc.h	182;"	d
+AO_HAVE_test_and_set_release_write	atomic_ops/generalize.h	935;"	d
+AO_HAVE_test_and_set_release_write	atomic_ops/generalize.h	941;"	d
+AO_HAVE_test_and_set_write	atomic_ops/generalize.h	889;"	d
+AO_INLINE	atomic_ops/atomic_ops.h	152;"	d
+AO_INLINE	atomic_ops/atomic_ops.h	154;"	d
+AO_INLINE	atomic_ops/atomic_ops.h	156;"	d
+AO_IN_ADDR	atomic_ops/ia64.h	45;"	d
+AO_IN_ADDR	atomic_ops/ia64.h	51;"	d
+AO_LEN	atomic_ops/ia64.h	34;"	d
+AO_LEN	atomic_ops/ia64.h	50;"	d
+AO_MASK	atomic_ops/ia64.h	48;"	d
+AO_MASK	atomic_ops/ia64.h	54;"	d
+AO_OUT_ADDR	atomic_ops/ia64.h	46;"	d
+AO_OUT_ADDR	atomic_ops/ia64.h	52;"	d
+AO_SWIZZLE	atomic_ops/ia64.h	47;"	d
+AO_SWIZZLE	atomic_ops/ia64.h	53;"	d
+AO_T	atomic_ops/atomic_ops.h	345;"	d
+AO_TS_CLEAR	atomic_ops/test_and_set_t_is_ao_t.h	31;"	d
+AO_TS_CLEAR	atomic_ops/test_and_set_t_is_char.h	32;"	d
+AO_TS_COMPARE_AND_SWAP	atomic_ops/generalize.h	57;"	d
+AO_TS_COMPARE_AND_SWAP	atomic_ops/generalize.h	68;"	d
+AO_TS_COMPARE_AND_SWAP_ACQUIRE	atomic_ops/generalize.h	53;"	d
+AO_TS_COMPARE_AND_SWAP_ACQUIRE	atomic_ops/generalize.h	64;"	d
+AO_TS_COMPARE_AND_SWAP_FULL	atomic_ops/generalize.h	51;"	d
+AO_TS_COMPARE_AND_SWAP_FULL	atomic_ops/generalize.h	62;"	d
+AO_TS_COMPARE_AND_SWAP_RELEASE	atomic_ops/generalize.h	55;"	d
+AO_TS_COMPARE_AND_SWAP_RELEASE	atomic_ops/generalize.h	66;"	d
+AO_TS_INITIALIZER	atomic_ops/atomic_ops.h	147;"	d
+AO_TS_SET	atomic_ops/test_and_set_t_is_ao_t.h	32;"	d
+AO_TS_SET	atomic_ops/test_and_set_t_is_char.h	33;"	d
+AO_TS_T	atomic_ops/atomic_ops.h	344;"	d
+AO_TS_VAL	atomic_ops/atomic_ops.h	346;"	d
+AO_TS_VAL_t	atomic_ops/test_and_set_t_is_ao_t.h	30;"	d
+AO_TS_VAL_t	atomic_ops/test_and_set_t_is_char.h	31;"	d
+AO_TS_clear	atomic_ops/test_and_set_t_is_ao_t.h	/^typedef enum {AO_TS_clear = 0, AO_TS_set = 1} AO_TS_val;$/;"	e	enum:__anon3
+AO_TS_set	atomic_ops/test_and_set_t_is_ao_t.h	/^typedef enum {AO_TS_clear = 0, AO_TS_set = 1} AO_TS_val;$/;"	e	enum:__anon3
+AO_TS_t	atomic_ops/test_and_set_t_is_ao_t.h	34;"	d
+AO_TS_t	atomic_ops/test_and_set_t_is_char.h	29;"	d
+AO_TS_val	atomic_ops/test_and_set_t_is_ao_t.h	/^typedef enum {AO_TS_clear = 0, AO_TS_set = 1} AO_TS_val;$/;"	t	typeref:enum:__anon3
+AO_USE_SYNC_CAS_BUILTIN	atomic_ops/atomic_ops.h	211;"	d
+AO_USE_SYNC_CAS_BUILTIN	atomic_ops/atomic_ops.h	269;"	d
+AO_barrier_dummy	atomic_ops/atomic_ops.h	/^    static volatile int AO_barrier_dummy;$/;"	v
+AO_char_compare_and_swap_acquire	atomic_ops/ia64.h	/^AO_char_compare_and_swap_acquire(volatile unsigned char *addr,$/;"	f
+AO_char_compare_and_swap_release	atomic_ops/ia64.h	/^AO_char_compare_and_swap_release(volatile unsigned char *addr,$/;"	f
+AO_char_fetch_and_add	atomic_ops/generalize-small.h	215;"	d
+AO_char_fetch_and_add	atomic_ops/generalize-small.h	221;"	d
+AO_char_fetch_and_add	atomic_ops/generalize-small.h	227;"	d
+AO_char_fetch_and_add	atomic_ops/generalize-small.h	233;"	d
+AO_char_fetch_and_add1	atomic_ops/generalize-small.h	330;"	d
+AO_char_fetch_and_add1	atomic_ops/generalize-small.h	360;"	d
+AO_char_fetch_and_add1	atomic_ops/generalize-small.h	366;"	d
+AO_char_fetch_and_add1	atomic_ops/generalize-small.h	372;"	d
+AO_char_fetch_and_add1	atomic_ops/generalize-small.h	378;"	d
+AO_char_fetch_and_add1_acquire	atomic_ops/generalize-small.h	300;"	d
+AO_char_fetch_and_add1_acquire	atomic_ops/generalize-small.h	342;"	d
+AO_char_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	324;"	d
+AO_char_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	405;"	d
+AO_char_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	411;"	d
+AO_char_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	418;"	d
+AO_char_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	424;"	d
+AO_char_fetch_and_add1_full	atomic_ops/generalize-small.h	288;"	d
+AO_char_fetch_and_add1_full	atomic_ops/generalize-small.h	386;"	d
+AO_char_fetch_and_add1_read	atomic_ops/generalize-small.h	312;"	d
+AO_char_fetch_and_add1_read	atomic_ops/generalize-small.h	352;"	d
+AO_char_fetch_and_add1_release	atomic_ops/generalize-small.h	294;"	d
+AO_char_fetch_and_add1_release	atomic_ops/generalize-small.h	337;"	d
+AO_char_fetch_and_add1_release_write	atomic_ops/generalize-small.h	318;"	d
+AO_char_fetch_and_add1_release_write	atomic_ops/generalize-small.h	393;"	d
+AO_char_fetch_and_add1_release_write	atomic_ops/generalize-small.h	399;"	d
+AO_char_fetch_and_add1_write	atomic_ops/generalize-small.h	306;"	d
+AO_char_fetch_and_add1_write	atomic_ops/generalize-small.h	347;"	d
+AO_char_fetch_and_add_acquire	atomic_ops/generalize-small.h	/^   AO_char_fetch_and_add_acquire(volatile unsigned char *addr,$/;"	f
+AO_char_fetch_and_add_acquire	atomic_ops/generalize-small.h	197;"	d
+AO_char_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	259;"	d
+AO_char_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	265;"	d
+AO_char_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	272;"	d
+AO_char_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	278;"	d
+AO_char_fetch_and_add_full	atomic_ops/generalize-small.h	/^   AO_char_fetch_and_add_full(volatile unsigned char *addr,$/;"	f
+AO_char_fetch_and_add_full	atomic_ops/generalize-small.h	241;"	d
+AO_char_fetch_and_add_full	atomic_ops/x86.h	/^AO_char_fetch_and_add_full (volatile unsigned char *p, unsigned char incr)$/;"	f
+AO_char_fetch_and_add_full	atomic_ops/x86_64.h	/^AO_char_fetch_and_add_full (volatile unsigned char *p, unsigned char incr)$/;"	f
+AO_char_fetch_and_add_read	atomic_ops/generalize-small.h	207;"	d
+AO_char_fetch_and_add_release	atomic_ops/generalize-small.h	/^   AO_char_fetch_and_add_release(volatile unsigned char *addr,$/;"	f
+AO_char_fetch_and_add_release	atomic_ops/generalize-small.h	192;"	d
+AO_char_fetch_and_add_release_write	atomic_ops/generalize-small.h	247;"	d
+AO_char_fetch_and_add_release_write	atomic_ops/generalize-small.h	253;"	d
+AO_char_fetch_and_add_write	atomic_ops/generalize-small.h	202;"	d
+AO_char_fetch_and_sub1	atomic_ops/generalize-small.h	476;"	d
+AO_char_fetch_and_sub1	atomic_ops/generalize-small.h	506;"	d
+AO_char_fetch_and_sub1	atomic_ops/generalize-small.h	512;"	d
+AO_char_fetch_and_sub1	atomic_ops/generalize-small.h	518;"	d
+AO_char_fetch_and_sub1	atomic_ops/generalize-small.h	524;"	d
+AO_char_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	446;"	d
+AO_char_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	488;"	d
+AO_char_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	470;"	d
+AO_char_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	551;"	d
+AO_char_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	557;"	d
+AO_char_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	564;"	d
+AO_char_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	570;"	d
+AO_char_fetch_and_sub1_full	atomic_ops/generalize-small.h	434;"	d
+AO_char_fetch_and_sub1_full	atomic_ops/generalize-small.h	532;"	d
+AO_char_fetch_and_sub1_read	atomic_ops/generalize-small.h	458;"	d
+AO_char_fetch_and_sub1_read	atomic_ops/generalize-small.h	498;"	d
+AO_char_fetch_and_sub1_release	atomic_ops/generalize-small.h	440;"	d
+AO_char_fetch_and_sub1_release	atomic_ops/generalize-small.h	483;"	d
+AO_char_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	464;"	d
+AO_char_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	539;"	d
+AO_char_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	545;"	d
+AO_char_fetch_and_sub1_write	atomic_ops/generalize-small.h	452;"	d
+AO_char_fetch_and_sub1_write	atomic_ops/generalize-small.h	493;"	d
+AO_char_load	atomic_ops/generalize-small.h	3;"	d
+AO_char_load	atomic_ops/generalize-small.h	62;"	d
+AO_char_load_acquire	atomic_ops/all_acquire_release_volatile.h	/^AO_char_load_acquire(const volatile unsigned char *p)$/;"	f
+AO_char_load_acquire	atomic_ops/generalize-small.h	/^   AO_char_load_acquire(const volatile unsigned char *addr)$/;"	f
+AO_char_load_acquire	atomic_ops/generalize-small.h	8;"	d
+AO_char_load_acquire	atomic_ops/read_ordered.h	65;"	d
+AO_char_load_acquire_read	atomic_ops/generalize-small.h	18;"	d
+AO_char_load_acquire_read	atomic_ops/generalize-small.h	57;"	d
+AO_char_load_dd_acquire_read	atomic_ops/generalize-small.h	68;"	d
+AO_char_load_dd_acquire_read	atomic_ops/generalize-small.h	74;"	d
+AO_char_load_full	atomic_ops/generalize-small.h	52;"	d
+AO_char_load_read	atomic_ops/generalize-small.h	/^   AO_char_load_read(const volatile unsigned char *addr)$/;"	f
+AO_char_load_read	atomic_ops/generalize-small.h	13;"	d
+AO_char_load_read	atomic_ops/read_ordered.h	/^AO_char_load_read(const volatile unsigned char *addr)$/;"	f
+AO_char_store	atomic_ops/generalize-small.h	106;"	d
+AO_char_store	atomic_ops/generalize-small.h	84;"	d
+AO_char_store_full	atomic_ops/generalize-small.h	132;"	d
+AO_char_store_release	atomic_ops/all_acquire_release_volatile.h	/^AO_char_store_release(volatile unsigned char *p, unsigned char val)$/;"	f
+AO_char_store_release	atomic_ops/generalize-small.h	112;"	d
+AO_char_store_release	atomic_ops/generalize-small.h	89;"	d
+AO_char_store_release	atomic_ops/ordered_except_wr.h	67;"	d
+AO_char_store_release_write	atomic_ops/generalize-small.h	100;"	d
+AO_char_store_release_write	atomic_ops/generalize-small.h	126;"	d
+AO_char_store_write	atomic_ops/generalize-small.h	119;"	d
+AO_char_store_write	atomic_ops/generalize-small.h	94;"	d
+AO_char_store_write	atomic_ops/ordered_except_wr.h	/^AO_char_store_write(volatile unsigned char *addr, unsigned char val)$/;"	f
+AO_compare_and_swap	atomic_ops/generalize.h	1012;"	d
+AO_compare_and_swap	atomic_ops/generalize.h	1018;"	d
+AO_compare_and_swap	atomic_ops/generalize.h	1024;"	d
+AO_compare_and_swap	atomic_ops/generalize.h	1030;"	d
+AO_compare_and_swap	atomic_ops/powerpc.h	/^AO_compare_and_swap(volatile AO_t *addr, AO_t old, AO_t new_val) {$/;"	f
+AO_compare_and_swap_acquire	atomic_ops/generalize.h	/^   AO_compare_and_swap_acquire(volatile AO_t *addr, AO_t old, AO_t new_val)$/;"	f
+AO_compare_and_swap_acquire	atomic_ops/generalize.h	994;"	d
+AO_compare_and_swap_acquire	atomic_ops/ia64.h	/^AO_compare_and_swap_acquire(volatile AO_t *addr,$/;"	f
+AO_compare_and_swap_acquire	atomic_ops/powerpc.h	/^AO_compare_and_swap_acquire(volatile AO_t *addr, AO_t old, AO_t new_val) {$/;"	f
+AO_compare_and_swap_acquire_read	atomic_ops/generalize.h	1057;"	d
+AO_compare_and_swap_acquire_read	atomic_ops/generalize.h	1063;"	d
+AO_compare_and_swap_dd_acquire_read	atomic_ops/generalize.h	1070;"	d
+AO_compare_and_swap_dd_acquire_read	atomic_ops/generalize.h	1076;"	d
+AO_compare_and_swap_double	atomic_ops/generalize.h	1246;"	d
+AO_compare_and_swap_double	atomic_ops/generalize.h	1252;"	d
+AO_compare_and_swap_double	atomic_ops/generalize.h	1258;"	d
+AO_compare_and_swap_double	atomic_ops/generalize.h	1264;"	d
+AO_compare_and_swap_double_acquire	atomic_ops/generalize.h	/^   AO_compare_and_swap_double_acquire(volatile AO_double_t *addr,$/;"	f
+AO_compare_and_swap_double_acquire	atomic_ops/generalize.h	1228;"	d
+AO_compare_and_swap_double_acquire_read	atomic_ops/generalize.h	1291;"	d
+AO_compare_and_swap_double_acquire_read	atomic_ops/generalize.h	1297;"	d
+AO_compare_and_swap_double_dd_acquire_read	atomic_ops/generalize.h	1304;"	d
+AO_compare_and_swap_double_dd_acquire_read	atomic_ops/generalize.h	1310;"	d
+AO_compare_and_swap_double_full	atomic_ops/generalize.h	1272;"	d
+AO_compare_and_swap_double_read	atomic_ops/generalize.h	1238;"	d
+AO_compare_and_swap_double_release	atomic_ops/generalize.h	1217;"	d
+AO_compare_and_swap_double_release	atomic_ops/generalize.h	1223;"	d
+AO_compare_and_swap_double_release_write	atomic_ops/generalize.h	1279;"	d
+AO_compare_and_swap_double_release_write	atomic_ops/generalize.h	1285;"	d
+AO_compare_and_swap_double_write	atomic_ops/generalize.h	1233;"	d
+AO_compare_and_swap_full	atomic_ops/generalize.h	1038;"	d
+AO_compare_and_swap_full	atomic_ops/powerpc.h	/^AO_compare_and_swap_full(volatile AO_t *addr, AO_t old, AO_t new_val) {$/;"	f
+AO_compare_and_swap_full	atomic_ops/sparc.h	/^AO_compare_and_swap_full(volatile AO_t *addr, AO_t old, AO_t new_val) {$/;"	f
+AO_compare_and_swap_full	atomic_ops/x86.h	/^AO_compare_and_swap_full(volatile AO_t *addr, AO_t old, AO_t new_val)$/;"	f
+AO_compare_and_swap_full	atomic_ops/x86_64.h	/^AO_compare_and_swap_full(volatile AO_t *addr, AO_t old, AO_t new_val)$/;"	f
+AO_compare_and_swap_read	atomic_ops/generalize.h	1004;"	d
+AO_compare_and_swap_release	atomic_ops/generalize.h	983;"	d
+AO_compare_and_swap_release	atomic_ops/generalize.h	989;"	d
+AO_compare_and_swap_release	atomic_ops/ia64.h	/^AO_compare_and_swap_release(volatile AO_t *addr,$/;"	f
+AO_compare_and_swap_release	atomic_ops/powerpc.h	/^AO_compare_and_swap_release(volatile AO_t *addr, AO_t old, AO_t new_val) {$/;"	f
+AO_compare_and_swap_release_write	atomic_ops/generalize.h	1045;"	d
+AO_compare_and_swap_release_write	atomic_ops/generalize.h	1051;"	d
+AO_compare_and_swap_write	atomic_ops/generalize.h	999;"	d
+AO_compare_double_and_swap_double	atomic_ops/generalize.h	1130;"	d
+AO_compare_double_and_swap_double	atomic_ops/generalize.h	1136;"	d
+AO_compare_double_and_swap_double	atomic_ops/generalize.h	1142;"	d
+AO_compare_double_and_swap_double	atomic_ops/generalize.h	1148;"	d
+AO_compare_double_and_swap_double_acquire	atomic_ops/generalize.h	/^   AO_compare_double_and_swap_double_acquire(volatile AO_double_t *addr,$/;"	f
+AO_compare_double_and_swap_double_acquire	atomic_ops/generalize.h	1112;"	d
+AO_compare_double_and_swap_double_acquire_read	atomic_ops/generalize.h	1175;"	d
+AO_compare_double_and_swap_double_acquire_read	atomic_ops/generalize.h	1181;"	d
+AO_compare_double_and_swap_double_dd_acquire_read	atomic_ops/generalize.h	1188;"	d
+AO_compare_double_and_swap_double_dd_acquire_read	atomic_ops/generalize.h	1194;"	d
+AO_compare_double_and_swap_double_full	atomic_ops/generalize.h	1156;"	d
+AO_compare_double_and_swap_double_full	atomic_ops/x86.h	/^AO_compare_double_and_swap_double_full(volatile AO_double_t *addr,$/;"	f
+AO_compare_double_and_swap_double_full	atomic_ops/x86_64.h	/^AO_compare_double_and_swap_double_full(volatile AO_double_t *addr,$/;"	f
+AO_compare_double_and_swap_double_read	atomic_ops/generalize.h	1122;"	d
+AO_compare_double_and_swap_double_release	atomic_ops/generalize.h	1101;"	d
+AO_compare_double_and_swap_double_release	atomic_ops/generalize.h	1107;"	d
+AO_compare_double_and_swap_double_release_write	atomic_ops/generalize.h	1163;"	d
+AO_compare_double_and_swap_double_release_write	atomic_ops/generalize.h	1169;"	d
+AO_compare_double_and_swap_double_write	atomic_ops/generalize.h	1117;"	d
+AO_compiler_barrier	atomic_ops/atomic_ops.h	160;"	d
+AO_compiler_barrier	atomic_ops/atomic_ops.h	170;"	d
+AO_compiler_barrier	atomic_ops/atomic_ops.h	174;"	d
+AO_compiler_barrier	atomic_ops/atomic_ops.h	179;"	d
+AO_compiler_barrier	atomic_ops/atomic_ops.h	183;"	d
+AO_compiler_barrier	atomic_ops/atomic_ops.h	188;"	d
+AO_compiler_barrier	atomic_ops/atomic_ops.h	193;"	d
+AO_double_compare_and_swap_acquire	atomic_ops/generalize.h	/^AO_double_compare_and_swap_acquire(volatile AO_double_t *addr,$/;"	f
+AO_double_compare_and_swap_full	atomic_ops/generalize.h	/^AO_double_compare_and_swap_full(volatile AO_double_t *addr,$/;"	f
+AO_double_compare_and_swap_release	atomic_ops/generalize.h	/^AO_double_compare_and_swap_release(volatile AO_double_t *addr,$/;"	f
+AO_double_t	atomic_ops/standard_ao_double_t.h	/^} AO_double_t;$/;"	t	typeref:union:__anon1
+AO_fetch_and_add	atomic_ops/generalize.h	/^   AO_fetch_and_add(volatile AO_t *addr, AO_t incr)$/;"	f
+AO_fetch_and_add	atomic_ops/generalize.h	421;"	d
+AO_fetch_and_add	atomic_ops/generalize.h	427;"	d
+AO_fetch_and_add	atomic_ops/generalize.h	433;"	d
+AO_fetch_and_add	atomic_ops/generalize.h	439;"	d
+AO_fetch_and_add	atomic_ops/powerpc.h	/^AO_fetch_and_add(volatile AO_t *addr, AO_t incr) {$/;"	f
+AO_fetch_and_add1	atomic_ops/generalize.h	532;"	d
+AO_fetch_and_add1	atomic_ops/generalize.h	562;"	d
+AO_fetch_and_add1	atomic_ops/generalize.h	568;"	d
+AO_fetch_and_add1	atomic_ops/generalize.h	574;"	d
+AO_fetch_and_add1	atomic_ops/generalize.h	580;"	d
+AO_fetch_and_add1_acquire	atomic_ops/generalize.h	505;"	d
+AO_fetch_and_add1_acquire	atomic_ops/generalize.h	544;"	d
+AO_fetch_and_add1_acquire	atomic_ops/ia64.h	/^AO_fetch_and_add1_acquire (volatile AO_t *addr)$/;"	f
+AO_fetch_and_add1_acquire_read	atomic_ops/generalize.h	526;"	d
+AO_fetch_and_add1_acquire_read	atomic_ops/generalize.h	607;"	d
+AO_fetch_and_add1_acquire_read	atomic_ops/generalize.h	613;"	d
+AO_fetch_and_add1_dd_acquire_read	atomic_ops/generalize.h	620;"	d
+AO_fetch_and_add1_dd_acquire_read	atomic_ops/generalize.h	626;"	d
+AO_fetch_and_add1_full	atomic_ops/generalize.h	495;"	d
+AO_fetch_and_add1_full	atomic_ops/generalize.h	588;"	d
+AO_fetch_and_add1_read	atomic_ops/generalize.h	515;"	d
+AO_fetch_and_add1_read	atomic_ops/generalize.h	554;"	d
+AO_fetch_and_add1_release	atomic_ops/generalize.h	500;"	d
+AO_fetch_and_add1_release	atomic_ops/generalize.h	539;"	d
+AO_fetch_and_add1_release	atomic_ops/ia64.h	/^AO_fetch_and_add1_release (volatile AO_t *addr)$/;"	f
+AO_fetch_and_add1_release_write	atomic_ops/generalize.h	520;"	d
+AO_fetch_and_add1_release_write	atomic_ops/generalize.h	595;"	d
+AO_fetch_and_add1_release_write	atomic_ops/generalize.h	601;"	d
+AO_fetch_and_add1_write	atomic_ops/generalize.h	510;"	d
+AO_fetch_and_add1_write	atomic_ops/generalize.h	549;"	d
+AO_fetch_and_add_acquire	atomic_ops/generalize.h	/^   AO_fetch_and_add_acquire(volatile AO_t *addr, AO_t incr)$/;"	f
+AO_fetch_and_add_acquire	atomic_ops/generalize.h	403;"	d
+AO_fetch_and_add_acquire	atomic_ops/powerpc.h	/^AO_fetch_and_add_acquire(volatile AO_t *addr, AO_t incr) {$/;"	f
+AO_fetch_and_add_acquire_read	atomic_ops/generalize.h	466;"	d
+AO_fetch_and_add_acquire_read	atomic_ops/generalize.h	472;"	d
+AO_fetch_and_add_dd_acquire_read	atomic_ops/generalize.h	479;"	d
+AO_fetch_and_add_dd_acquire_read	atomic_ops/generalize.h	485;"	d
+AO_fetch_and_add_full	atomic_ops/generalize.h	/^   AO_fetch_and_add_full(volatile AO_t *addr, AO_t incr)$/;"	f
+AO_fetch_and_add_full	atomic_ops/generalize.h	447;"	d
+AO_fetch_and_add_full	atomic_ops/powerpc.h	/^AO_fetch_and_add_full(volatile AO_t *addr, AO_t incr) {$/;"	f
+AO_fetch_and_add_full	atomic_ops/x86.h	/^AO_fetch_and_add_full (volatile AO_t *p, AO_t incr)$/;"	f
+AO_fetch_and_add_full	atomic_ops/x86_64.h	/^AO_fetch_and_add_full (volatile AO_t *p, AO_t incr)$/;"	f
+AO_fetch_and_add_read	atomic_ops/generalize.h	413;"	d
+AO_fetch_and_add_release	atomic_ops/generalize.h	/^   AO_fetch_and_add_release(volatile AO_t *addr, AO_t incr)$/;"	f
+AO_fetch_and_add_release	atomic_ops/generalize.h	398;"	d
+AO_fetch_and_add_release	atomic_ops/powerpc.h	/^AO_fetch_and_add_release(volatile AO_t *addr, AO_t incr) {$/;"	f
+AO_fetch_and_add_release_write	atomic_ops/generalize.h	454;"	d
+AO_fetch_and_add_release_write	atomic_ops/generalize.h	460;"	d
+AO_fetch_and_add_write	atomic_ops/generalize.h	408;"	d
+AO_fetch_and_sub1	atomic_ops/generalize.h	676;"	d
+AO_fetch_and_sub1	atomic_ops/generalize.h	706;"	d
+AO_fetch_and_sub1	atomic_ops/generalize.h	712;"	d
+AO_fetch_and_sub1	atomic_ops/generalize.h	718;"	d
+AO_fetch_and_sub1	atomic_ops/generalize.h	724;"	d
+AO_fetch_and_sub1_acquire	atomic_ops/generalize.h	646;"	d
+AO_fetch_and_sub1_acquire	atomic_ops/generalize.h	688;"	d
+AO_fetch_and_sub1_acquire	atomic_ops/ia64.h	/^AO_fetch_and_sub1_acquire (volatile AO_t *addr)$/;"	f
+AO_fetch_and_sub1_acquire_read	atomic_ops/generalize.h	670;"	d
+AO_fetch_and_sub1_acquire_read	atomic_ops/generalize.h	751;"	d
+AO_fetch_and_sub1_acquire_read	atomic_ops/generalize.h	757;"	d
+AO_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize.h	764;"	d
+AO_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize.h	770;"	d
+AO_fetch_and_sub1_full	atomic_ops/generalize.h	635;"	d
+AO_fetch_and_sub1_full	atomic_ops/generalize.h	732;"	d
+AO_fetch_and_sub1_read	atomic_ops/generalize.h	658;"	d
+AO_fetch_and_sub1_read	atomic_ops/generalize.h	698;"	d
+AO_fetch_and_sub1_release	atomic_ops/generalize.h	640;"	d
+AO_fetch_and_sub1_release	atomic_ops/generalize.h	683;"	d
+AO_fetch_and_sub1_release	atomic_ops/ia64.h	/^AO_fetch_and_sub1_release (volatile AO_t *addr)$/;"	f
+AO_fetch_and_sub1_release_write	atomic_ops/generalize.h	664;"	d
+AO_fetch_and_sub1_release_write	atomic_ops/generalize.h	739;"	d
+AO_fetch_and_sub1_release_write	atomic_ops/generalize.h	745;"	d
+AO_fetch_and_sub1_write	atomic_ops/generalize.h	652;"	d
+AO_fetch_and_sub1_write	atomic_ops/generalize.h	693;"	d
+AO_int_compare_and_swap	atomic_ops/ao_t_is_int.h	73;"	d
+AO_int_compare_and_swap_acquire	atomic_ops/ao_t_is_int.h	41;"	d
+AO_int_compare_and_swap_acquire	atomic_ops/ia64.h	/^AO_int_compare_and_swap_acquire(volatile unsigned int *addr,$/;"	f
+AO_int_compare_and_swap_full	atomic_ops/ao_t_is_int.h	33;"	d
+AO_int_compare_and_swap_read	atomic_ops/ao_t_is_int.h	65;"	d
+AO_int_compare_and_swap_release	atomic_ops/ao_t_is_int.h	49;"	d
+AO_int_compare_and_swap_release	atomic_ops/ia64.h	/^AO_int_compare_and_swap_release(volatile unsigned int *addr,$/;"	f
+AO_int_compare_and_swap_write	atomic_ops/ao_t_is_int.h	57;"	d
+AO_int_fetch_and_add	atomic_ops/generalize-small.h	1365;"	d
+AO_int_fetch_and_add	atomic_ops/generalize-small.h	1371;"	d
+AO_int_fetch_and_add	atomic_ops/generalize-small.h	1377;"	d
+AO_int_fetch_and_add	atomic_ops/generalize-small.h	1383;"	d
+AO_int_fetch_and_add1	atomic_ops/generalize-small.h	1480;"	d
+AO_int_fetch_and_add1	atomic_ops/generalize-small.h	1510;"	d
+AO_int_fetch_and_add1	atomic_ops/generalize-small.h	1516;"	d
+AO_int_fetch_and_add1	atomic_ops/generalize-small.h	1522;"	d
+AO_int_fetch_and_add1	atomic_ops/generalize-small.h	1528;"	d
+AO_int_fetch_and_add1_acquire	atomic_ops/ao_t_is_int.h	102;"	d
+AO_int_fetch_and_add1_acquire	atomic_ops/generalize-small.h	1450;"	d
+AO_int_fetch_and_add1_acquire	atomic_ops/generalize-small.h	1492;"	d
+AO_int_fetch_and_add1_acquire	atomic_ops/ia64.h	/^AO_int_fetch_and_add1_acquire (volatile unsigned int *addr)$/;"	f
+AO_int_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	1474;"	d
+AO_int_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	1555;"	d
+AO_int_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	1561;"	d
+AO_int_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	1568;"	d
+AO_int_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	1574;"	d
+AO_int_fetch_and_add1_full	atomic_ops/generalize-small.h	1438;"	d
+AO_int_fetch_and_add1_full	atomic_ops/generalize-small.h	1536;"	d
+AO_int_fetch_and_add1_read	atomic_ops/generalize-small.h	1462;"	d
+AO_int_fetch_and_add1_read	atomic_ops/generalize-small.h	1502;"	d
+AO_int_fetch_and_add1_release	atomic_ops/ao_t_is_int.h	109;"	d
+AO_int_fetch_and_add1_release	atomic_ops/generalize-small.h	1444;"	d
+AO_int_fetch_and_add1_release	atomic_ops/generalize-small.h	1487;"	d
+AO_int_fetch_and_add1_release	atomic_ops/ia64.h	/^AO_int_fetch_and_add1_release (volatile unsigned int *addr)$/;"	f
+AO_int_fetch_and_add1_release_write	atomic_ops/generalize-small.h	1468;"	d
+AO_int_fetch_and_add1_release_write	atomic_ops/generalize-small.h	1543;"	d
+AO_int_fetch_and_add1_release_write	atomic_ops/generalize-small.h	1549;"	d
+AO_int_fetch_and_add1_write	atomic_ops/generalize-small.h	1456;"	d
+AO_int_fetch_and_add1_write	atomic_ops/generalize-small.h	1497;"	d
+AO_int_fetch_and_add_acquire	atomic_ops/generalize-small.h	/^   AO_int_fetch_and_add_acquire(volatile unsigned int *addr,$/;"	f
+AO_int_fetch_and_add_acquire	atomic_ops/generalize-small.h	1347;"	d
+AO_int_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	1409;"	d
+AO_int_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	1415;"	d
+AO_int_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	1422;"	d
+AO_int_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	1428;"	d
+AO_int_fetch_and_add_full	atomic_ops/ao_t_is_int.h	95;"	d
+AO_int_fetch_and_add_full	atomic_ops/generalize-small.h	/^   AO_int_fetch_and_add_full(volatile unsigned int *addr,$/;"	f
+AO_int_fetch_and_add_full	atomic_ops/generalize-small.h	1391;"	d
+AO_int_fetch_and_add_full	atomic_ops/x86_64.h	/^AO_int_fetch_and_add_full (volatile unsigned int *p, unsigned int incr)$/;"	f
+AO_int_fetch_and_add_read	atomic_ops/generalize-small.h	1357;"	d
+AO_int_fetch_and_add_release	atomic_ops/generalize-small.h	/^   AO_int_fetch_and_add_release(volatile unsigned int *addr,$/;"	f
+AO_int_fetch_and_add_release	atomic_ops/generalize-small.h	1342;"	d
+AO_int_fetch_and_add_release_write	atomic_ops/generalize-small.h	1397;"	d
+AO_int_fetch_and_add_release_write	atomic_ops/generalize-small.h	1403;"	d
+AO_int_fetch_and_add_write	atomic_ops/generalize-small.h	1352;"	d
+AO_int_fetch_and_sub1	atomic_ops/generalize-small.h	1626;"	d
+AO_int_fetch_and_sub1	atomic_ops/generalize-small.h	1656;"	d
+AO_int_fetch_and_sub1	atomic_ops/generalize-small.h	1662;"	d
+AO_int_fetch_and_sub1	atomic_ops/generalize-small.h	1668;"	d
+AO_int_fetch_and_sub1	atomic_ops/generalize-small.h	1674;"	d
+AO_int_fetch_and_sub1_acquire	atomic_ops/ao_t_is_int.h	116;"	d
+AO_int_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	1596;"	d
+AO_int_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	1638;"	d
+AO_int_fetch_and_sub1_acquire	atomic_ops/ia64.h	/^AO_int_fetch_and_sub1_acquire (volatile unsigned int *addr)$/;"	f
+AO_int_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1620;"	d
+AO_int_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1701;"	d
+AO_int_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1707;"	d
+AO_int_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	1714;"	d
+AO_int_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	1720;"	d
+AO_int_fetch_and_sub1_full	atomic_ops/generalize-small.h	1584;"	d
+AO_int_fetch_and_sub1_full	atomic_ops/generalize-small.h	1682;"	d
+AO_int_fetch_and_sub1_read	atomic_ops/generalize-small.h	1608;"	d
+AO_int_fetch_and_sub1_read	atomic_ops/generalize-small.h	1648;"	d
+AO_int_fetch_and_sub1_release	atomic_ops/ao_t_is_int.h	123;"	d
+AO_int_fetch_and_sub1_release	atomic_ops/generalize-small.h	1590;"	d
+AO_int_fetch_and_sub1_release	atomic_ops/generalize-small.h	1633;"	d
+AO_int_fetch_and_sub1_release	atomic_ops/ia64.h	/^AO_int_fetch_and_sub1_release (volatile unsigned int *addr)$/;"	f
+AO_int_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1614;"	d
+AO_int_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1689;"	d
+AO_int_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1695;"	d
+AO_int_fetch_and_sub1_write	atomic_ops/generalize-small.h	1602;"	d
+AO_int_fetch_and_sub1_write	atomic_ops/generalize-small.h	1643;"	d
+AO_int_load	atomic_ops/generalize-small.h	1153;"	d
+AO_int_load	atomic_ops/generalize-small.h	1212;"	d
+AO_int_load_acquire	atomic_ops/all_acquire_release_volatile.h	/^AO_int_load_acquire(const volatile unsigned int *p)$/;"	f
+AO_int_load_acquire	atomic_ops/ao_t_is_int.h	81;"	d
+AO_int_load_acquire	atomic_ops/generalize-small.h	/^   AO_int_load_acquire(const volatile unsigned int *addr)$/;"	f
+AO_int_load_acquire	atomic_ops/generalize-small.h	1158;"	d
+AO_int_load_acquire	atomic_ops/read_ordered.h	97;"	d
+AO_int_load_acquire_read	atomic_ops/generalize-small.h	1168;"	d
+AO_int_load_acquire_read	atomic_ops/generalize-small.h	1207;"	d
+AO_int_load_dd_acquire_read	atomic_ops/generalize-small.h	1218;"	d
+AO_int_load_dd_acquire_read	atomic_ops/generalize-small.h	1224;"	d
+AO_int_load_full	atomic_ops/generalize-small.h	1202;"	d
+AO_int_load_read	atomic_ops/generalize-small.h	/^   AO_int_load_read(const volatile unsigned int *addr)$/;"	f
+AO_int_load_read	atomic_ops/generalize-small.h	1163;"	d
+AO_int_load_read	atomic_ops/read_ordered.h	/^AO_int_load_read(const volatile unsigned int *addr)$/;"	f
+AO_int_store	atomic_ops/generalize-small.h	1234;"	d
+AO_int_store	atomic_ops/generalize-small.h	1256;"	d
+AO_int_store_full	atomic_ops/generalize-small.h	1282;"	d
+AO_int_store_release	atomic_ops/all_acquire_release_volatile.h	/^AO_int_store_release(volatile unsigned int *p, unsigned int val)$/;"	f
+AO_int_store_release	atomic_ops/ao_t_is_int.h	88;"	d
+AO_int_store_release	atomic_ops/generalize-small.h	1239;"	d
+AO_int_store_release	atomic_ops/generalize-small.h	1262;"	d
+AO_int_store_release	atomic_ops/ordered_except_wr.h	97;"	d
+AO_int_store_release_write	atomic_ops/generalize-small.h	1250;"	d
+AO_int_store_release_write	atomic_ops/generalize-small.h	1276;"	d
+AO_int_store_write	atomic_ops/generalize-small.h	1244;"	d
+AO_int_store_write	atomic_ops/generalize-small.h	1269;"	d
+AO_int_store_write	atomic_ops/ordered_except_wr.h	/^AO_int_store_write(volatile unsigned int *addr, unsigned int val)$/;"	f
+AO_load	atomic_ops/aligned_atomic_load_store.h	/^AO_load(const volatile AO_t *addr)$/;"	f
+AO_load	atomic_ops/generalize.h	184;"	d
+AO_load	atomic_ops/generalize.h	238;"	d
+AO_load_acquire	atomic_ops/all_acquire_release_volatile.h	/^AO_load_acquire(const volatile AO_t *p)$/;"	f
+AO_load_acquire	atomic_ops/generalize.h	/^   AO_load_acquire(const volatile AO_t *addr)$/;"	f
+AO_load_acquire	atomic_ops/generalize.h	179;"	d
+AO_load_acquire	atomic_ops/powerpc.h	/^AO_load_acquire(const volatile AO_t *addr)$/;"	f
+AO_load_acquire	atomic_ops/read_ordered.h	49;"	d
+AO_load_acquire_read	atomic_ops/generalize.h	194;"	d
+AO_load_acquire_read	atomic_ops/generalize.h	233;"	d
+AO_load_dd_acquire_read	atomic_ops/generalize.h	244;"	d
+AO_load_dd_acquire_read	atomic_ops/generalize.h	249;"	d
+AO_load_full	atomic_ops/generalize.h	228;"	d
+AO_load_read	atomic_ops/generalize.h	/^   AO_load_read(const volatile AO_t *addr)$/;"	f
+AO_load_read	atomic_ops/generalize.h	189;"	d
+AO_load_read	atomic_ops/read_ordered.h	/^AO_load_read(const volatile AO_t *addr)$/;"	f
+AO_lwsync	atomic_ops/powerpc.h	/^AO_lwsync(void)$/;"	f
+AO_nop	atomic_ops/generalize.h	/^   AO_INLINE void AO_nop(void) {}$/;"	f
+AO_nop_full	atomic_ops/generalize.h	/^   AO_nop_full(void)$/;"	f
+AO_nop_full	atomic_ops/ia64.h	/^AO_nop_full(void)$/;"	f
+AO_nop_full	atomic_ops/powerpc.h	/^AO_nop_full(void)$/;"	f
+AO_nop_full	atomic_ops/x86.h	/^AO_nop_full(void)$/;"	f
+AO_nop_full	atomic_ops/x86_64.h	/^AO_nop_full(void)$/;"	f
+AO_nop_read	atomic_ops/generalize.h	168;"	d
+AO_nop_read	atomic_ops/powerpc.h	61;"	d
+AO_nop_read	atomic_ops/read_ordered.h	/^AO_nop_read(void)$/;"	f
+AO_nop_write	atomic_ops/generalize.h	173;"	d
+AO_nop_write	atomic_ops/ordered_except_wr.h	/^AO_nop_write(void)$/;"	f
+AO_nop_write	atomic_ops/powerpc.h	58;"	d
+AO_or	atomic_ops/generalize.h	816;"	d
+AO_or	atomic_ops/generalize.h	822;"	d
+AO_or	atomic_ops/generalize.h	828;"	d
+AO_or	atomic_ops/generalize.h	834;"	d
+AO_or_acquire	atomic_ops/generalize.h	798;"	d
+AO_or_acquire_read	atomic_ops/generalize.h	860;"	d
+AO_or_acquire_read	atomic_ops/generalize.h	866;"	d
+AO_or_full	atomic_ops/generalize.h	/^   AO_or_full(volatile AO_t *addr, AO_t incr)$/;"	f
+AO_or_full	atomic_ops/generalize.h	842;"	d
+AO_or_full	atomic_ops/x86.h	/^AO_or_full (volatile AO_t *p, AO_t incr)$/;"	f
+AO_or_full	atomic_ops/x86_64.h	/^AO_or_full (volatile AO_t *p, AO_t incr)$/;"	f
+AO_or_read	atomic_ops/generalize.h	808;"	d
+AO_or_release	atomic_ops/generalize.h	793;"	d
+AO_or_release_write	atomic_ops/generalize.h	848;"	d
+AO_or_release_write	atomic_ops/generalize.h	854;"	d
+AO_or_write	atomic_ops/generalize.h	803;"	d
+AO_parts	atomic_ops/standard_ao_double_t.h	/^    struct {AO_t AO_v1; AO_t AO_v2;} AO_parts;$/;"	m	union:__anon1	typeref:struct:__anon1::__anon2
+AO_short_compare_and_swap_acquire	atomic_ops/ia64.h	/^AO_short_compare_and_swap_acquire(volatile unsigned short *addr,$/;"	f
+AO_short_compare_and_swap_release	atomic_ops/ia64.h	/^AO_short_compare_and_swap_release(volatile unsigned short *addr,$/;"	f
+AO_short_fetch_and_add	atomic_ops/generalize-small.h	790;"	d
+AO_short_fetch_and_add	atomic_ops/generalize-small.h	796;"	d
+AO_short_fetch_and_add	atomic_ops/generalize-small.h	802;"	d
+AO_short_fetch_and_add	atomic_ops/generalize-small.h	808;"	d
+AO_short_fetch_and_add1	atomic_ops/generalize-small.h	905;"	d
+AO_short_fetch_and_add1	atomic_ops/generalize-small.h	935;"	d
+AO_short_fetch_and_add1	atomic_ops/generalize-small.h	941;"	d
+AO_short_fetch_and_add1	atomic_ops/generalize-small.h	947;"	d
+AO_short_fetch_and_add1	atomic_ops/generalize-small.h	953;"	d
+AO_short_fetch_and_add1_acquire	atomic_ops/generalize-small.h	875;"	d
+AO_short_fetch_and_add1_acquire	atomic_ops/generalize-small.h	917;"	d
+AO_short_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	899;"	d
+AO_short_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	980;"	d
+AO_short_fetch_and_add1_acquire_read	atomic_ops/generalize-small.h	986;"	d
+AO_short_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	993;"	d
+AO_short_fetch_and_add1_dd_acquire_read	atomic_ops/generalize-small.h	999;"	d
+AO_short_fetch_and_add1_full	atomic_ops/generalize-small.h	863;"	d
+AO_short_fetch_and_add1_full	atomic_ops/generalize-small.h	961;"	d
+AO_short_fetch_and_add1_read	atomic_ops/generalize-small.h	887;"	d
+AO_short_fetch_and_add1_read	atomic_ops/generalize-small.h	927;"	d
+AO_short_fetch_and_add1_release	atomic_ops/generalize-small.h	869;"	d
+AO_short_fetch_and_add1_release	atomic_ops/generalize-small.h	912;"	d
+AO_short_fetch_and_add1_release_write	atomic_ops/generalize-small.h	893;"	d
+AO_short_fetch_and_add1_release_write	atomic_ops/generalize-small.h	968;"	d
+AO_short_fetch_and_add1_release_write	atomic_ops/generalize-small.h	974;"	d
+AO_short_fetch_and_add1_write	atomic_ops/generalize-small.h	881;"	d
+AO_short_fetch_and_add1_write	atomic_ops/generalize-small.h	922;"	d
+AO_short_fetch_and_add_acquire	atomic_ops/generalize-small.h	/^   AO_short_fetch_and_add_acquire(volatile unsigned short *addr,$/;"	f
+AO_short_fetch_and_add_acquire	atomic_ops/generalize-small.h	772;"	d
+AO_short_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	834;"	d
+AO_short_fetch_and_add_acquire_read	atomic_ops/generalize-small.h	840;"	d
+AO_short_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	847;"	d
+AO_short_fetch_and_add_dd_acquire_read	atomic_ops/generalize-small.h	853;"	d
+AO_short_fetch_and_add_full	atomic_ops/generalize-small.h	/^   AO_short_fetch_and_add_full(volatile unsigned short *addr,$/;"	f
+AO_short_fetch_and_add_full	atomic_ops/generalize-small.h	816;"	d
+AO_short_fetch_and_add_full	atomic_ops/x86.h	/^AO_short_fetch_and_add_full (volatile unsigned short *p, unsigned short incr)$/;"	f
+AO_short_fetch_and_add_full	atomic_ops/x86_64.h	/^AO_short_fetch_and_add_full (volatile unsigned short *p, unsigned short incr)$/;"	f
+AO_short_fetch_and_add_read	atomic_ops/generalize-small.h	782;"	d
+AO_short_fetch_and_add_release	atomic_ops/generalize-small.h	/^   AO_short_fetch_and_add_release(volatile unsigned short *addr,$/;"	f
+AO_short_fetch_and_add_release	atomic_ops/generalize-small.h	767;"	d
+AO_short_fetch_and_add_release_write	atomic_ops/generalize-small.h	822;"	d
+AO_short_fetch_and_add_release_write	atomic_ops/generalize-small.h	828;"	d
+AO_short_fetch_and_add_write	atomic_ops/generalize-small.h	777;"	d
+AO_short_fetch_and_sub1	atomic_ops/generalize-small.h	1051;"	d
+AO_short_fetch_and_sub1	atomic_ops/generalize-small.h	1081;"	d
+AO_short_fetch_and_sub1	atomic_ops/generalize-small.h	1087;"	d
+AO_short_fetch_and_sub1	atomic_ops/generalize-small.h	1093;"	d
+AO_short_fetch_and_sub1	atomic_ops/generalize-small.h	1099;"	d
+AO_short_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	1021;"	d
+AO_short_fetch_and_sub1_acquire	atomic_ops/generalize-small.h	1063;"	d
+AO_short_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1045;"	d
+AO_short_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1126;"	d
+AO_short_fetch_and_sub1_acquire_read	atomic_ops/generalize-small.h	1132;"	d
+AO_short_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	1139;"	d
+AO_short_fetch_and_sub1_dd_acquire_read	atomic_ops/generalize-small.h	1145;"	d
+AO_short_fetch_and_sub1_full	atomic_ops/generalize-small.h	1009;"	d
+AO_short_fetch_and_sub1_full	atomic_ops/generalize-small.h	1107;"	d
+AO_short_fetch_and_sub1_read	atomic_ops/generalize-small.h	1033;"	d
+AO_short_fetch_and_sub1_read	atomic_ops/generalize-small.h	1073;"	d
+AO_short_fetch_and_sub1_release	atomic_ops/generalize-small.h	1015;"	d
+AO_short_fetch_and_sub1_release	atomic_ops/generalize-small.h	1058;"	d
+AO_short_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1039;"	d
+AO_short_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1114;"	d
+AO_short_fetch_and_sub1_release_write	atomic_ops/generalize-small.h	1120;"	d
+AO_short_fetch_and_sub1_write	atomic_ops/generalize-small.h	1027;"	d
+AO_short_fetch_and_sub1_write	atomic_ops/generalize-small.h	1068;"	d
+AO_short_load	atomic_ops/generalize-small.h	578;"	d
+AO_short_load	atomic_ops/generalize-small.h	637;"	d
+AO_short_load_acquire	atomic_ops/all_acquire_release_volatile.h	/^AO_short_load_acquire(const volatile unsigned short *p)$/;"	f
+AO_short_load_acquire	atomic_ops/generalize-small.h	/^   AO_short_load_acquire(const volatile unsigned short *addr)$/;"	f
+AO_short_load_acquire	atomic_ops/generalize-small.h	583;"	d
+AO_short_load_acquire	atomic_ops/read_ordered.h	81;"	d
+AO_short_load_acquire_read	atomic_ops/generalize-small.h	593;"	d
+AO_short_load_acquire_read	atomic_ops/generalize-small.h	632;"	d
+AO_short_load_dd_acquire_read	atomic_ops/generalize-small.h	643;"	d
+AO_short_load_dd_acquire_read	atomic_ops/generalize-small.h	649;"	d
+AO_short_load_full	atomic_ops/generalize-small.h	627;"	d
+AO_short_load_read	atomic_ops/generalize-small.h	/^   AO_short_load_read(const volatile unsigned short *addr)$/;"	f
+AO_short_load_read	atomic_ops/generalize-small.h	588;"	d
+AO_short_load_read	atomic_ops/read_ordered.h	/^AO_short_load_read(const volatile unsigned short *addr)$/;"	f
+AO_short_store	atomic_ops/generalize-small.h	659;"	d
+AO_short_store	atomic_ops/generalize-small.h	681;"	d
+AO_short_store_full	atomic_ops/generalize-small.h	707;"	d
+AO_short_store_release	atomic_ops/all_acquire_release_volatile.h	/^AO_short_store_release(volatile unsigned short *p, unsigned short val)$/;"	f
+AO_short_store_release	atomic_ops/generalize-small.h	664;"	d
+AO_short_store_release	atomic_ops/generalize-small.h	687;"	d
+AO_short_store_release	atomic_ops/ordered_except_wr.h	82;"	d
+AO_short_store_release_write	atomic_ops/generalize-small.h	675;"	d
+AO_short_store_release_write	atomic_ops/generalize-small.h	701;"	d
+AO_short_store_write	atomic_ops/generalize-small.h	669;"	d
+AO_short_store_write	atomic_ops/generalize-small.h	694;"	d
+AO_short_store_write	atomic_ops/ordered_except_wr.h	/^AO_short_store_write(volatile unsigned short *addr, unsigned short val)$/;"	f
+AO_store	atomic_ops/aligned_atomic_load_store.h	/^AO_store(volatile AO_t *addr, AO_t new_val)$/;"	f
+AO_store	atomic_ops/generalize.h	263;"	d
+AO_store	atomic_ops/generalize.h	278;"	d
+AO_store_full	atomic_ops/generalize.h	301;"	d
+AO_store_release	atomic_ops/all_acquire_release_volatile.h	/^AO_store_release(volatile AO_t *p, AO_t val)$/;"	f
+AO_store_release	atomic_ops/generalize.h	258;"	d
+AO_store_release	atomic_ops/generalize.h	284;"	d
+AO_store_release	atomic_ops/ordered_except_wr.h	52;"	d
+AO_store_release	atomic_ops/powerpc.h	/^AO_store_release(volatile AO_t *addr, AO_t value)$/;"	f
+AO_store_release_write	atomic_ops/generalize.h	273;"	d
+AO_store_release_write	atomic_ops/generalize.h	295;"	d
+AO_store_write	atomic_ops/generalize.h	268;"	d
+AO_store_write	atomic_ops/generalize.h	290;"	d
+AO_store_write	atomic_ops/ordered_except_wr.h	/^AO_store_write(volatile AO_t *addr, AO_t val)$/;"	f
+AO_t	atomic_ops/atomic_ops.h	142;"	d
+AO_test_and_set	atomic_ops/generalize.h	/^     AO_test_and_set(volatile AO_TS_t *addr)$/;"	f
+AO_test_and_set	atomic_ops/generalize.h	900;"	d
+AO_test_and_set	atomic_ops/generalize.h	906;"	d
+AO_test_and_set	atomic_ops/generalize.h	912;"	d
+AO_test_and_set	atomic_ops/generalize.h	918;"	d
+AO_test_and_set	atomic_ops/powerpc.h	/^AO_test_and_set(volatile AO_TS_t *addr) {$/;"	f
+AO_test_and_set_acquire	atomic_ops/generalize.h	/^     AO_test_and_set_acquire(volatile AO_TS_t *addr)$/;"	f
+AO_test_and_set_acquire	atomic_ops/generalize.h	/^AO_test_and_set_acquire(volatile AO_TS_t *addr)$/;"	f
+AO_test_and_set_acquire	atomic_ops/generalize.h	882;"	d
+AO_test_and_set_acquire	atomic_ops/powerpc.h	/^AO_test_and_set_acquire(volatile AO_TS_t *addr) {$/;"	f
+AO_test_and_set_acquire_read	atomic_ops/generalize.h	945;"	d
+AO_test_and_set_acquire_read	atomic_ops/generalize.h	951;"	d
+AO_test_and_set_dd_acquire_read	atomic_ops/generalize.h	958;"	d
+AO_test_and_set_dd_acquire_read	atomic_ops/generalize.h	964;"	d
+AO_test_and_set_full	atomic_ops/generalize.h	/^     AO_test_and_set_full(volatile AO_TS_t *addr)$/;"	f
+AO_test_and_set_full	atomic_ops/generalize.h	926;"	d
+AO_test_and_set_full	atomic_ops/powerpc.h	/^AO_test_and_set_full(volatile AO_TS_t *addr) {$/;"	f
+AO_test_and_set_full	atomic_ops/sparc.h	/^AO_test_and_set_full(volatile AO_TS_t *addr) {$/;"	f
+AO_test_and_set_full	atomic_ops/x86.h	/^AO_test_and_set_full(volatile AO_TS_t *addr)$/;"	f
+AO_test_and_set_full	atomic_ops/x86_64.h	/^AO_test_and_set_full(volatile AO_TS_t *addr)$/;"	f
+AO_test_and_set_read	atomic_ops/generalize.h	892;"	d
+AO_test_and_set_release	atomic_ops/generalize.h	/^     AO_test_and_set_release(volatile AO_TS_t *addr)$/;"	f
+AO_test_and_set_release	atomic_ops/generalize.h	309;"	d
+AO_test_and_set_release	atomic_ops/generalize.h	877;"	d
+AO_test_and_set_release	atomic_ops/powerpc.h	/^AO_test_and_set_release(volatile AO_TS_t *addr) {$/;"	f
+AO_test_and_set_release_write	atomic_ops/generalize.h	933;"	d
+AO_test_and_set_release_write	atomic_ops/generalize.h	939;"	d
+AO_test_and_set_write	atomic_ops/generalize.h	887;"	d
+AO_v1	atomic_ops/standard_ao_double_t.h	/^    struct {AO_t AO_v1; AO_t AO_v2;} AO_parts;$/;"	m	struct:__anon1::__anon2
+AO_v2	atomic_ops/standard_ao_double_t.h	/^    struct {AO_t AO_v1; AO_t AO_v2;} AO_parts;$/;"	m	struct:__anon1::__anon2
+AO_val1	atomic_ops/standard_ao_double_t.h	24;"	d
+AO_val2	atomic_ops/standard_ao_double_t.h	25;"	d
+AO_whole	atomic_ops/standard_ao_double_t.h	/^    double_ptr_storage AO_whole;$/;"	m	union:__anon1
+ATOMIC_OPS_H	atomic_ops/atomic_ops.h	25;"	d
+BARRIER	common.h	11;"	d
+BOBJS	Makefile	/^BOBJS=util.o b_linked.o b_bench.o$/;"	m
+CACHE_LINE_SIZE	common.h	28;"	d
+CACHE_PAD	common.h	23;"	d
+CAS	common.h	13;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -O -I.\/atomic_ops$/;"	m
+COMMON_H_	common.h	5;"	d
+DEBUG_PRINT	linkedlist.h	14;"	d
+DEBUG_PRINT	linkedlist.h	16;"	d
+FAD	common.h	17;"	d
+FAI	common.h	16;"	d
+GET	bench.h	/^enum op_type { PUT, GET };$/;"	e	enum:op_type
+GET_RAND	linkedlist.h	7;"	d
+GET_SEQ	linkedlist.h	6;"	d
+LDLIBS	Makefile	/^LDLIBS = -lpthread -g -lm $/;"	m
+LINE_SIZE	linkedlist.h	10;"	d
+MAX_DATA	bench.h	22;"	d
+MAX_KEY	bench.h	21;"	d
+MAX_OP_NUM	bench.h	23;"	d
+MAX_THREAD_NUM	bench.h	17;"	d
+NBOBJS	Makefile	/^NBOBJS=util.o nb_linked.o bench.o$/;"	m
+OBJS	Makefile	/^OBJS = linkedlist.o util.o bench.o$/;"	m
+PUT	bench.h	/^enum op_type { PUT, GET };$/;"	e	enum:op_type
+PUT_RAND	linkedlist.h	5;"	d
+PUT_SEQ	linkedlist.h	4;"	d
+Pthread_cond_broadcast	thread.h	/^void Pthread_cond_broadcast(pthread_cond_t *cv)$/;"	f
+Pthread_cond_wait	thread.h	/^void Pthread_cond_wait(pthread_cond_t *cv,pthread_mutex_t *mutex)$/;"	f
+Pthread_create	thread.h	/^void Pthread_create(pthread_t *thread, const pthread_attr_t *attr, 	$/;"	f
+Pthread_join	thread.h	/^void Pthread_join(pthread_t thread, void **value_ptr)$/;"	f
+Pthread_mutex_lock	thread.h	/^void Pthread_mutex_lock(pthread_mutex_t *mutex)$/;"	f
+Pthread_mutex_trylock	thread.h	/^void Pthread_mutex_trylock(pthread_mutex_t *mutex)$/;"	f
+Pthread_mutex_unlock	thread.h	/^void Pthread_mutex_unlock(pthread_mutex_t *mutex)$/;"	f
+SAMPLE_NUM	bench.h	24;"	d
+SRCS	Makefile	/^SRCS = linkedlist.c util.c bench.c$/;"	m
+STAT_FAD	common.h	34;"	d
+STAT_FAD	common.h	37;"	d
+STAT_FAI	common.h	33;"	d
+STAT_FAI	common.h	36;"	d
+TRC_BENCH	linkedlist.h	8;"	d
+TRC_NUM	bench.h	19;"	d
+VOLATILE	common.h	10;"	d
+_GNU_SOURCE	bench.h	16;"	d
+__MYTHREADS_h__	thread.h	2;"	d
+barrier	bench.h	/^	barrier_t* barrier;$/;"	m	struct:targ
+barrier	util.h	/^typedef struct barrier {$/;"	s
+barrier_cross	util.c	/^void barrier_cross(barrier_t *b)$/;"	f
+barrier_init	util.c	/^void barrier_init(barrier_t *b, int n)$/;"	f
+barrier_t	util.h	/^} barrier_t;$/;"	t	typeref:struct:barrier
+complete	util.h	/^    pthread_cond_t complete;$/;"	m	struct:barrier
+count	util.h	/^    int count;$/;"	m	struct:barrier
+crossing	util.h	/^    int crossing;$/;"	m	struct:barrier
+do_operation	back/test.c	/^void *do_operation(void* arg)$/;"	f
+do_operation	bench.c	/^void *do_operation(void* arg)$/;"	f
+double_ptr_storage	atomic_ops/standard_ao_double_t.h	/^  typedef __m128 double_ptr_storage;$/;"	t
+double_ptr_storage	atomic_ops/standard_ao_double_t.h	/^  typedef unsigned __int64 double_ptr_storage;$/;"	t
+double_ptr_storage	atomic_ops/standard_ao_double_t.h	/^  typedef unsigned long long double_ptr_storage;$/;"	t
+get_time	util.c	/^void get_time(struct timeval* tv)  {$/;"	f
+init_nops	bench.h	/^	int init_nops;$/;"	m	struct:targ
+init_ops	bench.h	/^	op_t* init_ops;$/;"	m	struct:targ
+key	bench.h	/^	long key;$/;"	m	struct:op
+key	linkedlist.h	/^	long key;	$/;"	m	struct:node
+lat	bench.h	/^	double* lat;	$/;"	m	struct:targ
+level	linkedlist.h	/^	long level;$/;"	m	struct:node
+linked_list	linkedlist.h	/^typedef struct linked_list {$/;"	s
+linked_list_destroy	linkedlist.c	/^void linked_list_destroy(linked_list_t *ll)$/;"	f
+linked_list_get	linkedlist.c	/^long linked_list_get(long key, linked_list_t *ll)$/;"	f
+linked_list_init	linkedlist.c	/^int linked_list_init(linked_list_t **ll)$/;"	f
+linked_list_put	linkedlist.c	/^long linked_list_put(long key, long value, linked_list_t *ll)$/;"	f
+linked_list_t	linkedlist.h	/^} linked_list_t;$/;"	t	typeref:struct:linked_list
+list_head	linkedlist.h	/^	node_t* list_head;$/;"	m	struct:linked_list
+list_lock	linkedlist.h	/^	pthread_mutex_t list_lock;$/;"	m	struct:linked_list
+ll	bench.h	/^	linked_list_t* ll;$/;"	m	struct:targ
+ll	bench.h	/^struct linked_list_t* ll;$/;"	v	typeref:struct:linked_list_t
+main	back/test.c	/^int main(int argc, char* argv[])$/;"	f
+main	bench.c	/^int main(int argc, char* argv[])$/;"	f
+mutex	util.h	/^    pthread_mutex_t mutex;$/;"	m	struct:barrier
+next	linkedlist.h	/^	struct node** next; $/;"	m	struct:node	typeref:struct:node::node
+node	linkedlist.h	/^typedef struct node {$/;"	s
+node_t	linkedlist.h	/^} node_t;$/;"	t	typeref:struct:node
+nops	bench.h	/^	int nops;$/;"	m	struct:targ
+op	bench.h	/^typedef struct op {$/;"	s
+op_t	bench.h	/^} op_t;$/;"	t	typeref:struct:op
+op_type	bench.h	/^enum op_type { PUT, GET };$/;"	g
+ops	bench.h	/^	op_t* ops;$/;"	m	struct:targ
+targ	bench.h	/^typedef struct targ{ $/;"	s
+targ_t	bench.h	/^} targ_t;$/;"	t	typeref:struct:targ
+threads	bench.h	/^pthread_t threads[MAX_THREAD_NUM];$/;"	v
+tid	bench.h	/^	int tid; 	$/;"	m	struct:targ
+time_diff_ms	util.c	/^double time_diff_ms(struct timeval ts, struct timeval te) {$/;"	f
+time_diff_us	util.c	/^double time_diff_us(struct timeval ts, struct timeval te) {$/;"	f
+type	bench.h	/^	int type;$/;"	m	struct:op
+value	linkedlist.h	/^	long value;$/;"	m	struct:node

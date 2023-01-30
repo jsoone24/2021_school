@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 두개의 문자열 str1, str2의 첫번째 문자를 제외하고 나머지 문자들을 합치는
+      // 함수 concatenate(str1, str2)를 만드시오.
+
+      function concatenate(str1, str2) {
+        // coding을 할 것
+        return str1.substr(1) + str2.substr(1);
+      }
+
+      console.log(concatenate("PHP", "JS")); // 결과값 : "HPS"
+      console.log(concatenate("A", "B")); // 결과값 : ""
+      console.log(concatenate("AA", "BB")); // 결과값 : "AB"
+    </script>
+  </body>
+</html>
