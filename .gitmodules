@@ -1,0 +1,6 @@
+[submodule "sensorMotionRobotEng/YOLO_Lab/usb_cam"]
+	path = sensorMotionRobotEng/YOLO_Lab/usb_cam
+	url = https://github.com/ros-drivers/usb_cam.git
+[submodule "sensorMotionRobotEng/YOLO_Lab/darknet_ros"]
+	path = sensorMotionRobotEng/YOLO_Lab/darknet_ros
+	url = https://github.com/leggedrobotics/darknet_ros.git
