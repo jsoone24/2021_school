@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    Name: <input type="text" name="fullname" /><br />
+    Email: <input type="text" name="email" />
+
+    <script>
+      // 문제 2. 위 Name, Email input tag에 대하여 focus event가 발생할 때
+      //        background color를 "yellow"로, blur event가 발생할 때
+      //        background color를 "green"으로 바꿔라.
+      $(document).ready(function () {
+        // coding here
+        $("input").focus(() => {
+          $("input").css("background-color", "yellow");
+        });
+        $("input").blur(() => {
+          $("input").css("background-color", "green");
+        });
+      });
+    </script>
+  </body>
+</html>
