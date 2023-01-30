@@ -1,9 +1,0 @@
-[submodule "sensorMotionRobotEng/YOLO_Lab/usb_cam"]
-	path = sensorMotionRobotEng/YOLO_Lab/usb_cam
-	url = https://github.com/ros-drivers/usb_cam.git
-[submodule "sensorMotionRobotEng/YOLO_Lab/darknet_ros"]
-	path = sensorMotionRobotEng/YOLO_Lab/darknet_ros
-	url = https://github.com/leggedrobotics/darknet_ros.git
-[submodule "microProcessor/gem5"]
-	path = microProcessor/gem5
-	url = https://gem5.googlesource.com/public/gem5
