@@ -1,0 +1,36 @@
+<launch>
+    <node pkg="ros_tutorials_topic" type=“topic_publisher" name=“topic_publisher1"/>
+    <node pkg="ros_tutorials_topic" type=“topic_subscriber" name=“topic_subscriber1"/>
+    <node pkg="ros_tutorials_topic" type=“topic_publisher" name=“topic_publisher2"/>
+    <node pkg="ros_tutorials_topic" type=“topic_subscriber" name=“topic_subscriber2"/>
+</launch>
+
+        • <launch>태그 안에는 roslaunch 명령어로 노드를 실행할 때 필요
+한 태그들이 기술된다.
+<node>는 roslaunch로 실행할 노드를 기술
+    하게 된다. 옵션으로는 pkg, type, name이 있다.
+    • pkg 패키지의 이름
+    • type 실제 실행할 노드의 이름(노드명)
+    • name 위 type에 해당하는 노드가 실행될 때 붙여지는 이름(실행명), 일반
+    적으로는 type과 같게 설정하지만 필요에 따라 실행할 때 이름을 변경하도록
+    설정할 수 있다.
+
+    roslaunch ros_tutorials_topic union.launch --screen 상태 출력 방법
+
+<launch>
+    <group ns="ns1">
+        <node pkg="ros_tutorials_topic" type=“topic_publisher" name=“topic_publisher"/>
+        <node pkg="ros_tutorials_topic" type=“topic_subscriber" name=“topic_subscriber"/>
+    </group>
+    <group ns="ns2">
+        <node pkg="ros_tutorials_topic" type=“topic_publisher" name=“topic_publisher"/>
+        <node pkg="ros_tutorials_topic" type=“topic_subscriber" name=“topic_subscriber"/>
+    </group>
+</launch>
+
+<launch>
+    <arg name="update_ period" default="10" />
+    <param name="timing" value="$(arg update_ period)"/>
+</launch>
+
+roslaunch my_package my_package.launch update_ period:=30

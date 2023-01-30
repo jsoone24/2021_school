@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="string_merger" type="string_merger_node" name="string_merger_node" output="screen"></node>
+</launch>

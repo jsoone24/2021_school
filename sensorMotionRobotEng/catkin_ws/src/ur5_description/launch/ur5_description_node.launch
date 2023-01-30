@@ -1,0 +1,15 @@
+<launch>
+    <arg name="open_rviz" default="true"/>
+    <arg name="use_gui" default="true"/>
+
+    <param name="robot_description" command="$(find xacro)/xacro --inorder
+    '$(find ur_description)/urdf/ur5_joint_limited_robot.urdf.xacro'"/>
+
+    <!--    Send joint values -->
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+        <param name="/use_gui" value="$(arg use_gui)"/>
+    </node>
+
+    <!-- Combine joint values to TF -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+</launch>

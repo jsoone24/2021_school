@@ -1,0 +1,6 @@
+<launch>
+    <rosparam command="load" file="$(find my_parameter_yaml)/cfg/my_parameter_yaml_node.yaml"/>
+    <node pkg="my_parameter_yaml" type="my_parameter_yaml_node" name="my_parameter_yaml_node" output="screen">
+
+    </node>
+</launch>

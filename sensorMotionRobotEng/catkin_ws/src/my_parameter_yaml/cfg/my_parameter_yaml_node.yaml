@@ -1,0 +1,4 @@
+my_parameter_yaml_node:
+  param_int: 5
+  param_float: 2.7
+  param_string: "Sensor motion robot engineering is not difficult for me!"

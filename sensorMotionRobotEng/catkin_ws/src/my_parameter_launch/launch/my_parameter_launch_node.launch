@@ -1,0 +1,11 @@
+<launch>
+    <arg name="param_int_arg" default="5"/>
+    <arg name="param_float_arg" default="2.7"/>
+    <arg name="param_string_arg" default="Sensor motion robot engineering is not difficult for me!"/>
+
+    <node pkg="my_parameter_launch" name="my_parameter_launch_node" type="my_parameter_launch_node" output="screen">
+        <param name="param_int" value="$(arg param_int_arg)"/>
+        <param name="param_float" value="$(arg param_float_arg)"/>
+        <param name="param_string" value="$(arg param_string_arg)"/>
+    </node>
+</launch>
