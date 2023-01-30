@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <style>
+      .listitem {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About Me</h1>
+
+    <ul>
+      <li>Nickname: <span id="nickname"></span></li>
+      <li>Favorites: <span id="favorites"></span></li>
+      <li>Hometown: <span id="hometown"></span></li>
+    </ul>
+
+    <script>
+      /*
+            과제 내용
+            1) body의 fontFamily style 속성을 Arial, sans-serif로 변경할 것
+            2) nickname, favorites, hometown id의 span tag의 text에 
+               자신의 원하는 내용을 등록 할 것
+               - 예) nickname : 'Pamela Fox', favorites = scoccer, hometown='Seoul'
+            3) 3개 li tag 모두 class="listitem"을 넣어 
+               3개 li tag 모두 listitem class의 style을 적용받게 만들 것
+        */
+
+      // coding을 할 것
+      document.querySelector("body").style.fontFamily = "Arial, sans-serif";
+
+      document.getElementById("nickname").innerText = "Pamela Fox";
+      document.getElementById("favorites").innerText = "scoccer";
+      document.getElementById("hometown").innerText = "Seoul";
+
+      document.getElementsByTagName("li")[0].className += "listitem";
+      document.getElementsByTagName("li")[1].className += "listitem";
+      document.getElementsByTagName("li")[2].className += "listitem";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 6</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to My Homepage</h1>
+
+    <p>This is a paragraph.</p>
+
+    <div style="border: 1px solid black">
+      <p>A paragraph in a div.</p>
+      <p>Another paragraph in a div.</p>
+    </div>
+    <br />
+
+    <div style="border: 1px solid black">
+      <p>A paragraph in another div.</p>
+      <p>Another paragraph in another div.</p>
+    </div>
+    <br />
+
+    <div style="border: 1px solid black">
+      <p>A paragraph in another div.</p>
+      <p>Another paragraph in another div.</p>
+    </div>
+    <br />
+
+    <div style="border: 1px solid black">
+      <p>A paragraph in another div.</p>
+      <p>Another paragraph in another div.</p>
+    </div>
+
+    <script>
+      // 문제 6.
+      //   6-1) 첫번째 <div> tag의 background color를 "yellow"로 변경하라
+      //   6-2) 마지막 <div> tag의 background color를 "green"로 변경하라
+      //   6-2) 두번째 <div> tag의 background color를 "red"로 변경하라
+      $(document).ready(function () {
+        // coding here
+        $("div:eq(0)").css("background-color", "yellow");
+        $("div:last").css("background-color", "green");
+        $("div:eq(1)").css("background-color", "red");
+      });
+    </script>
+  </body>
+</html>
