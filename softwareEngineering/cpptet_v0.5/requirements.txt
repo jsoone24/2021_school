@@ -1,0 +1,20 @@
+- 제출내용: Tetris.h, Tetris.cpp, CTetris.h, CTetris.cpp, Main.cpp 에 다음 요구사항들이 구현되어야 함
+
+  . 요구사항1: 위 파일들을 제외한 나머지 파일들은 수정해서는 안 됨
+
+  . 요구사항2: Main.cpp 안에 정의된 블록들의 모양과 색상은 pytet와 약간 다르게 정의되어 있음. 
+
+            이것을 pytet와 동일하게 맞추어야 함!
+
+  . 요구사항3: Main.cpp 파일 안에서 '#if 0' 으로 disable된 코드들을 '#if 1'로 enable하여 모두 동작하도록 Tetris class와 CTetris class를 작성함
+
+  . 요구사항4: Tetris class는 pytet_v0.5를 참조하고, CTetris class는 강의노트를 참조하여 작성하되, deleteFullLines 함수는 본인만의 함수를 작성함
+
+  . 요구사항5: Tetris class와 CTetris class 안에서 각기 소멸자 함수를 작성하여 'delete board' 문장이 해당 객체를 깔끔하게 제거하도록 코딩함(가령, 클래스 안에서 Matrix 객체들이 사용 중이면, Matrix 객체들도 모두 깔끔하게 제거되어야 함)
+
+Main 할일 : if -> 1 로 변경
+블록 모양 색깔 수정
+
+나머지 수정할거 
+Tetris.h Tetris.cpp
+CTetris.h CTetris.cpp
